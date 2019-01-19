@@ -18,7 +18,7 @@ text-align: left;
 border-bottom: 1px solid #bbb;
 }
 header, main, footer {
-margin: 1.25rem auto;
+margin: .5rem auto;
 padding: .5rem;
 max-width: 780px;
 }
