@@ -18,8 +18,8 @@ text-align: left;
 border-bottom: 1px solid #bbb;
 }
 h3 {
-font-size: 1.5rem;  /* my own flair */
-color: darkgray;    
+font-size: 1rem;  /* my own flair */
+color: darkblue;    
 }
 header, main, footer {
 margin: .5rem auto;
