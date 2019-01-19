@@ -1,8 +1,4 @@
-/* CIT 230 - Assignment Portal CSS Template */
-/* You may use #HEX or color names */
-
-/* * is a wildcard referring to all elements. */
-* { margin: 0; box-sizing: border-box; } 
+* { margin: left=10px; box-sizing: border-box; } 
 
 body { 
     font-size: 16px; 
