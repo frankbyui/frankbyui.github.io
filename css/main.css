@@ -17,6 +17,10 @@ font-size: 1.5rem;
 text-align: left;
 border-bottom: 1px solid #bbb;
 }
+h3 {
+font-size: 1.5rem;  /* my own flair */
+color: darkgray;    
+}
 header, main, footer {
 margin: .5rem auto;
 padding: .5rem;
