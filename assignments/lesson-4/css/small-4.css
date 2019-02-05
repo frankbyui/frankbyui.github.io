@@ -1,0 +1,38 @@
+<link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet"> ;
+body {
+font-size: 16px;
+line-height: 32px;
+font-family: 'Merriweather', 'Times New Roman', serif;
+color: black;
+}
+h1 {
+font-size: 2rem;  /*(rem is a unit of measure) */
+color: #313335;
+}
+h2 {
+font-size: 1.5rem;
+text-align: left;
+color: #5e6266;
+}
+h3 {
+font-size: 1rem;
+color: #5e6266;    
+}
+header, main, footer {
+margin: .5rem auto;
+padding: .5rem;
+max-width: 780px;
+}
+header, footer, footer a {
+text-align: left;
+background-color: royalblue;
+color: whitesmoke;
+}
+header img {
+width: 25%;
+height: 25%;
+float: right;
+}
+footer {
+font-size: 10pt;
+}
