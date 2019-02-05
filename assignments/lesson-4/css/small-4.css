@@ -3,6 +3,11 @@
 header {
     background-color: #83b8e7;
 }
+header img {
+    width: 40%;
+    height: 40%;
+    float: left;
+    }
 header h1 {
     padding-left: 12px;
     padding-bottom: 24px;
@@ -45,15 +50,10 @@ h3 {
     font-size: 1rem;
     color: #5e6266;    
 }
-header, main, footer {
+header, main, nav, footer {
 margin: .5rem auto;
 padding: .5rem;
 max-width: 780px;
-}
-header img {
-width: 40%;
-height: 40%;
-float: left;
 }
 footer {
 font-size: 10pt;
