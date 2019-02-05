@@ -5,6 +5,7 @@ header {
 }
 header h1 {
     padding-left: 12px;
+    padding-bottom: 24px;
     font-size: 24 px;
     color: #313335;
     text-align: center;
@@ -19,6 +20,9 @@ body {
     line-height: 32px;
     font: 'Merriweather', 'Times New Roman', serif;
     color: black;
+}
+nav h2{
+    text-align: center;
 }
 nav {
     font: Merriweather;
