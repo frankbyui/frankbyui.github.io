@@ -1,11 +1,17 @@
-<link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet"> ;
+@import url('https://fonts.googleapis.com/css?family=Merriweather');
 body {
 font-size: 16px;
 line-height: 32px;
-font-family: 'Merriweather', 'Times New Roman', serif;
+font: 'Merriweather', 'Times New Roman', serif;
 color: black;
 }
+nav {
+font: Merriweather;
+font-size: 1.5rem;
+color: #83b8e7;
+}
 h1 {
+font: Merriweather;
 font-size: 2rem;  /*(rem is a unit of measure) */
 color: #313335;
 }
