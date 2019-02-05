@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Merriweather');
+
 header {
     background-color: #83b8e7;
 }
 header h1 {
+    padding: 12px;
     font-size: 24 px;
     color: #313335;
     text-align: left;
@@ -21,7 +23,7 @@ body {
 nav {
     font: Merriweather;
     color: #313335;
-    font-size: 1.5rem;
+    font-size: 1rem;
     background-color: #83b8e7;
     text-align: center;
 }
