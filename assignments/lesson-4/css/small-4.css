@@ -1,43 +1,44 @@
 @import url('https://fonts.googleapis.com/css?family=Merriweather');
+header {
+    color: #0700ef;
+    font-size: 24px;
+    text-align: left;
+}
 body {
-font-size: 16px;
-line-height: 32px;
-font: 'Merriweather', 'Times New Roman', serif;
-color: black;
+    font-size: 16px;
+    line-height: 32px;
+    font: 'Merriweather', 'Times New Roman', serif;
+    color: black;
 }
 nav {
-font: Merriweather;
-color: #313335;
-font-size: 1.5rem;
-background-color: #83b8e7;
+    font: Merriweather;
+    color: #313335;
+    font-size: 1.5rem;
+    background-color: #83b8e7;
 }
 h1 {
-font: Merriweather;
-font-size: 2rem;  /*(rem is a unit of measure) */
-color: #313335;
+    font: Merriweather;
+    font-size: 2rem;  /*(rem is a unit of measure) */
+    color: #313335;
 }
 h2 {
-font-size: 1.5rem;
-text-align: left;
-color: #5e6266;
+    font-size: 1.5rem;
+    text-align: left;
+    color: #5e6266;
 }
 h3 {
-font-size: 1rem;
-color: #5e6266;    
+    font-size: 1rem;
+    color: #5e6266;    
 }
 header, main, footer {
 margin: .5rem auto;
 padding: .5rem;
 max-width: 780px;
 }
-header, footer {
-text-align: left;
-color: #5e6266;
-}
 header img {
-width: 50%;
-height: 50%;
-float: right;
+width: 40%;
+height: 40%;
+float: left;
 }
 footer {
 font-size: 10pt;
