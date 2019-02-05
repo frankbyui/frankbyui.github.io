@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Merriweather');
 
+a:hover {
+    color: #e2e21f; 
+}
 header {
     background-color: #83b8e7;
     padding: 20px;
@@ -21,11 +24,11 @@ header h1 {
     color: #313335;
 }
 main img{
-    width: 720px;
+    width: 780px;
 }
 .weathsumm {
-    width: 100px;
-    height: 100px;
+    width: 300px;
+    height: 300px;
 }
 body {
     font-size: 16px;
@@ -34,6 +37,7 @@ body {
     color: black;
 }
 nav h2{
+
     text-align: center;
 }
 nav {
@@ -42,10 +46,11 @@ nav {
     color: #313335;
     font-size: 1rem;
     text-align: center;
+    
 }
 h1 {
     font: Merriweather;
-    font-size: 2rem;  /*(rem is a unit of measure) */
+    font-size: 2rem;
     color: #313335;
 }
 h2 {
