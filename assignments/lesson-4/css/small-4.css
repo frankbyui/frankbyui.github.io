@@ -30,6 +30,9 @@ main img{
 .weathsumm {
     width: 300px;
     height: 300px;
+    color: #5e6266;
+    
+
 }
 body {
     font-size: 16px;
@@ -37,7 +40,7 @@ body {
     font: 'Merriweather', 'Times New Roman', serif;
     color: black;
 }
-nav h2{
+nav h2 {
     text-align: center;
     color: #313335;
 }
