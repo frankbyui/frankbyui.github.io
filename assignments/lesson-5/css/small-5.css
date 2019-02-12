@@ -34,8 +34,7 @@ nav {
     text-align: center;
     font-family: 'Merriweather', serif;
     background-color: #83b8e7;
-    color: #313335;
-    font-size: 1rem;    
+    color: #313335;  
     }
 nav h2 {
     text-align: center;
@@ -46,18 +45,23 @@ nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    width: 200px;
+    width: 25%;
     background-color: #5e6266;
     }
 nav li a {
     color: #313335;
     padding: 8px 16px;
     text-decoration: none;
+    margin: 10px;
     }
 nav li a:hover {
     background-color: #313335;
-    color: white;
+    color: #83b8e7;
     }
+nav li .active {
+    background-color: #83b8e7;
+    color: #313335;
+}
 h1 {
     font-family: 'Merriweather', serif;
     font-size: 2rem;
