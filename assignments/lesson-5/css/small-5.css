@@ -54,17 +54,21 @@ nav ul {
     margin: 0;
     padding: 0;
     width: 100px;
-    background-color: #313335;
+    background-color: #5e6266;
 }
 nav li a {
     display: block;
-    color: #5e6266;
+    color: #313335;
     padding: 8px 16px;
     text-decoration: none;
 }
 nav li a:hover {
     background-color: #313335;
     color: white;
+}
+.active {
+    background-color: #83b8e7;
+    color: #313335;
 }
 h1 {
     font-family: 'Merriweather', serif;
