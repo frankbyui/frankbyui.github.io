@@ -50,6 +50,7 @@ nav ul {
     font-size: 1rem;
     }
 nav li a {
+    display: block;
     color: #313335;
     padding: 8px 16px;
     text-decoration: none;
@@ -60,9 +61,13 @@ nav li a:hover {
     color: #83b8e7;
     font-size: 1rem;
     }
-.active {
+nav li a.active {
     background-color: #83b8e7;
     color: #313335;
+}
+nav li a:hover:not(.active) {
+    background-color: #555555;
+    color: white;
 }
 h1 {
     font-family: 'Merriweather', serif;
