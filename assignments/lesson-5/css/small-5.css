@@ -3,16 +3,15 @@
 header {
     font-family: 'Merriweather', serif;
     background-color: #83b8e7;
-    padding: 100px;
     }
 header img {
-    width: 50%;
-    height: 50%;
+    width: 20%;
+    height: 20%;
     float: left;
     padding: 12px;
     }
 .brand {
-    font-size: 1rem;
+    font-size: 2rem;
     color: #313335;
     text-align: center;
     }
