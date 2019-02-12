@@ -50,7 +50,7 @@ nav {
     font-size: 1rem;    
 }
 nav ul {
-    float: inherit;
+    text-align: center;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -67,7 +67,7 @@ nav li a:hover {
     background-color: #313335;
     color: white;
 }
-.active {
+nav li a .active {
     background-color: #83b8e7;
     color: #313335;
 }
