@@ -43,7 +43,6 @@ nav h2 {
     color: #313335;
 }
 nav {
-    float: center;
     text-align: center;
     font-family: 'Merriweather', serif;
     background-color: #83b8e7;
@@ -51,6 +50,7 @@ nav {
     font-size: 1rem;    
 }
 nav ul {
+    float: inherit;
     list-style-type: none;
     margin: 0;
     padding: 0;
