@@ -52,10 +52,10 @@ nav li a:hover {
     background-color: #313335;
     color: white;
     }
-nav li a .active {
-    background-color: #83b8e7;
-    color: #313335;
-    }
+    .active {
+        background-color: #4CAF50;
+        color: white;
+      }
 h1 {
     font-family: 'Merriweather', serif;
     font-size: 2rem;
