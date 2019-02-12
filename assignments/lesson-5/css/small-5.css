@@ -1,12 +1,9 @@
 /* Stylesheet small-5.css */
 
-a:hover {
-    color: #5e6266; 
-}
 header {
     font-family: 'Merriweather', serif;
     background-color: #83b8e7;
-    padding: 20px;
+    padding: 100px;
     }
 header img {
     width: 40%;
