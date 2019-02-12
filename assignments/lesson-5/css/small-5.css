@@ -3,6 +3,7 @@
 header {
     font-family: 'Merriweather', serif;
     background-color: #83b8e7;
+    margin: 24px;
     }
 header img {
     width: 20%;
@@ -16,6 +17,7 @@ header img {
     text-align: center;
     }
 .motto {
+    font-size: 1rem;
     font-style: italic;
     text-align: center;
     color: #313335;
