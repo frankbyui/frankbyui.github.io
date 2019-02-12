@@ -1,0 +1,74 @@
+/* Stylesheet small-5.css */
+
+a:hover {
+    color: #5e6266; 
+}
+header {
+    font-family: 'Merriweather', serif;
+    background-color: #83b8e7;
+    padding: 20px;
+    }
+header img {
+    width: 40%;
+    height: 40%;
+    float: left;
+    }
+header h1 {
+    padding-left: 12px;
+    font-size: 24 px;
+    color: #313335;
+    text-align: center;
+}
+.motto {
+    font-style: italic;
+    text-align: center;
+    color: #313335;
+}
+main img{
+    width: 780px;
+}
+.weathsumm {
+    width: 300px;
+    height: 300px;
+    color: #5e6266;
+    }
+body {
+    font-size: 16px;
+    line-height: 32px;
+    font-family: 'Merriweather', serif;
+    color: black;
+}
+nav h2 {
+    text-align: center;
+    color: #313335;
+}
+nav {
+    font-family: 'Merriweather', serif;
+    background-color: #83b8e7;
+    color: #313335;
+    font-size: 1rem;
+    text-align: center;
+    
+}
+h1 {
+    font-family: 'Merriweather', serif;
+    font-size: 2rem;
+    color: #313335;
+}
+h2 {
+    font-size: 1.5rem;
+    text-align: left;
+    color: #5e6266;
+}
+h3 {
+    font-size: 1rem;
+    color: #5e6266;    
+}
+header, main, nav, footer {
+margin: .5rem auto;
+padding: .5rem;
+max-width: 780px;
+}
+footer {
+font-size: 10pt;
+}
