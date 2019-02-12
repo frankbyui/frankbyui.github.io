@@ -41,10 +41,10 @@ nav h2 {
     color: #313335;
     }
 nav ul {
+    display: inline-block;
     list-style-type: none;
     margin: 0;
     padding: 0;
-    width: 25%;
     background-color: #5e6266;
     }
 nav li a {
