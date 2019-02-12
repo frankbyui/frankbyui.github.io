@@ -15,15 +15,15 @@ header img {
     font-size: 36px;
     color: #313335;
     text-align: center;
-}
+    }
 .motto {
     font-style: italic;
     text-align: center;
     color: #313335;
-}
+    }
 main img{
     width: 780px;
-}
+    }
 .weathsumm {
     width: 300px;
     height: 300px;
@@ -34,18 +34,18 @@ body {
     line-height: 32px;
     font-family: 'Merriweather', serif;
     color: black;
-}
+    }
 nav h2 {
     text-align: center;
     color: #313335;
-}
+    }
 nav {
     text-align: center;
     font-family: 'Merriweather', serif;
     background-color: #83b8e7;
     color: #313335;
     font-size: 1rem;    
-}
+    }
 nav ul {
     text-align: center;
     list-style-type: none;
@@ -53,40 +53,40 @@ nav ul {
     padding: 0;
     width: 200px;
     background-color: #5e6266;
-}
+    }
 nav li a {
     display: block;
     color: #313335;
     padding: 8px 16px;
     text-decoration: none;
-}
+    }
 nav li a:hover {
     background-color: #313335;
     color: white;
-}
+    }
 nav li a .active {
     background-color: #83b8e7;
     color: #313335;
-}
+    }
 h1 {
     font-family: 'Merriweather', serif;
     font-size: 2rem;
     color: #313335;
-}
+    }
 h2 {
     font-size: 1.5rem;
     text-align: left;
     color: #5e6266;
-}
+    }
 h3 {
     font-size: 1rem;
     color: #5e6266;    
-}
+    }
 header, main, nav, footer {
-margin: .5rem auto;
-padding: .5rem;
-max-width: 780px;
-}
+    margin: .5rem auto;
+    padding: .5rem;
+    max-width: 780px;
+    }
 footer {
-font-size: 10pt;
-}
+    font-size: 10pt;
+    }
