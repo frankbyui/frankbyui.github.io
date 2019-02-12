@@ -36,7 +36,9 @@ nav h2 {
     }
 nav {
     background-color: #83b8e7;
-}
+    text-align: center;
+    disply: inline-block;
+    }
 nav ul {
     text-align: center;
     list-style-type: none;
