@@ -65,7 +65,7 @@ nav li a.active {
     background-color: #83b8e7;
     color: #313335;
     border-style: solid;
-    border-color: #313335; 
+    border-color: #555555
 }
 nav li a:hover:not(.active) {
     background-color: #555555;
