@@ -40,7 +40,6 @@ nav {
     disply: inline-block;
     }
 nav ul {
-    text-align: center;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -48,7 +47,7 @@ nav ul {
     background-color: #5e6266;
     }
 nav li a {
-    display: block;
+    text-align: center;
     color: #313335;
     padding: 8px 16px;
     text-decoration: none;
@@ -56,10 +55,6 @@ nav li a {
 nav li a:hover {
     background-color: #313335;
     color: white;
-    }
-.active {
-        background-color: #4CAF50;
-        color: white;
     }
 h1 {
     font-family: 'Merriweather', serif;
