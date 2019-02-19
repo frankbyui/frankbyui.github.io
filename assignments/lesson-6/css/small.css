@@ -3,11 +3,10 @@
 header {
     font-family: 'Merriweather', serif;
     background-color: #83b8e7;
-    margin: 24px;
     }
 header img {
-    width: 20%;
-    height: 20%;
+    width: 10%;
+    height: 10%;
     float: left;
 	vertical-align: top;
     padding: 12px;
