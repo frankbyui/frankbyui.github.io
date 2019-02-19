@@ -37,7 +37,6 @@ header .brand {
     font-family: 'Merriweather', serif;
     font-size: 2rem;
     margin: 20px;
-    padding: 10px;
     }
 header .motto {
     font-size: .8rem;
@@ -92,7 +91,7 @@ nav li a:hover:not(.active) {
     }
 main h2 {
     text-align: center;
-    margin: 20px;
+    margin: 15px 20px;
     }
 #summary {
     width: 400px;
