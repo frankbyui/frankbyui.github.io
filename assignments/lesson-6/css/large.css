@@ -43,8 +43,7 @@ header .motto {
     margin: 10px;
     }
 nav {
-    float: left;
-    display: block;
+    display: inline-block;
     text-align: center;
     font-family: 'Merriweather', serif;
     background-color: #83b8e7;
