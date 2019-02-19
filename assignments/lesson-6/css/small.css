@@ -27,7 +27,7 @@ main img{
     width: 100%;
     }
 .forecast tbody{
-    align-content: center;
+    align-items: center;
     }
 
 .weathsumm {
