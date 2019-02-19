@@ -86,11 +86,12 @@ main h2 {
     text-align: center;
     margin: 20px;
     }
-#summary {
+/* #summary {
     width: 400px;
     height: 400px;
     }
-#summary #weathsumm { 
+*/
+    #summary #weathsumm { 
     position: relative;
     width: 25%;
     height: 25%;
