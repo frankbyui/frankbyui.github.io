@@ -11,7 +11,7 @@ header .logo {
 	vertical-align: top;
     padding: 12px;
     }
-div.brand {
+h1 .brand {
     font-size: 2rem;
     color: #313335;
     text-align: center;
