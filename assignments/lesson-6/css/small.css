@@ -34,13 +34,15 @@ header img {
     margin: 10px;
     }
 header .brand {
+    font-family: 'Merriweather', serif;
     font-size: 2rem;
     margin: 20px;
+    padding: 10px;
     }
 header .motto {
     font-size: .7rem;
     font-style: italic;
-    margin: 10px;
+    margin: 0px;
     }
 nav .hide {
     display: none;
