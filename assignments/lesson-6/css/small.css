@@ -24,7 +24,7 @@ div.motto {
 	margin-bottom: 20px;
     }
 main img{
-    width: 100%;
+    width: 50%;
     }
 .forecast tbody {
     align-items: center;
@@ -92,11 +92,7 @@ h3 {
     font-size: 1rem;
     color: #5e6266;    
     }
-header, main, nav, footer {
-    margin: .5rem auto;
-    padding: .5rem;
-    max-width: 780px;
-    }
+
 footer {
     font-size: 10pt;
     }
