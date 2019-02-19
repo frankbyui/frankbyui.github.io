@@ -1,15 +1,5 @@
 /* Stylesheet small.css */
 
-header {
-    font-family: 'Merriweather', serif;
-    background-color: #83b8e7;
-    margin: 24px;
-    }
-header .logopic {
-    width: 20%;
-    height: 20%;
-    float: left;
-    }
 h1 {
     font-family: 'Merriweather', serif;
     font-size: 2rem;
@@ -23,17 +13,29 @@ h2 {
 h3 {
     font-size: 1rem;
     color: #5e6266;    
+    }header {
+    font-family: 'Merriweather', serif;
+    background-color: #83b8e7;
+    margin: 24px;
+    }
+header {
+    color: #313335;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    }
+header img {
+    width: 20%;
+    height: 20%;
+    float: left;
     }
 h1 .brand {
     font-size: 1.5rem;
-    color: #313335;
-    text-align: center;
     }
 div.motto {
     font-size: .8rem;
     font-style: italic;
-    text-align: center;
-    color: #313335;
+    margin-bottom: 20px;
     }
 main img{
     width: 50%;
