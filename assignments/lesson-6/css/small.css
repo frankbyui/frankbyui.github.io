@@ -5,23 +5,21 @@ header {
     background-color: #83b8e7;
     margin: 24px;
     }
-header .logo {
+header .logopic {
     width: 20%;
     height: 20%;
     float: left;
-    padding: 12px;
     }
 h1 .brand {
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: #313335;
     text-align: center;
     }
 div.motto {
-    font-size: 1rem;
+    font-size: .8rem;
     font-style: italic;
     text-align: center;
     color: #313335;
-	margin-bottom: 20px;
     }
 main img{
     width: 50%;
