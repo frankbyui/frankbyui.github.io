@@ -37,11 +37,12 @@ header img {
     }
 h1 .brand {
     font-size: 1.5rem;
+    margin: auto;
     }
 header div .motto {
     font-size: .8rem;
     font-style: italic;
-    margin-bottom: 20px;
+    margin: center; 
     }
 main img{
     width: 100%;
