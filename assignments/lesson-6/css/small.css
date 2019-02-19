@@ -99,14 +99,14 @@ main img {
 #weathsumm {
     display: block; 
     position: relative;
-    top: -250px;
+    top: -270px;
     left: 10px;
     width: 30%;
     height: 30%;
-    padding: 25px;
     color: #5e6266;
     font-size: .8rem;
-    background-color: rgba(255,255,255,0.3)
+    background-color: rgba(255,255,255,0.3);
+    border: solid 1px black; 
     }
 #forecast {
     display: none;
