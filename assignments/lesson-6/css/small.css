@@ -5,7 +5,7 @@ header {
     background-color: #83b8e7;
     }
 header img {
-    width: 200%;
+    width: 20%;
     height: 20%;
     float: left;
 	vertical-align: top;
@@ -97,7 +97,7 @@ h3 {
 header, main, nav, footer {
     margin: .5rem auto;
     padding: .5rem;
-    max-width: 780px;
+    max-width: 500px;
     }
 footer {
     font-size: 10pt;
