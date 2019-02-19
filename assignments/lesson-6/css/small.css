@@ -3,6 +3,7 @@
 header {
     font-family: 'Merriweather', serif;
     background-color: #83b8e7;
+    margin: 24px;
     }
 header .logo {
     width: 20%;
@@ -90,6 +91,11 @@ h2 {
 h3 {
     font-size: 1rem;
     color: #5e6266;    
+    }
+header, main, nav, footer {
+    margin: .5rem auto;
+    padding: .5rem;
+    max-width: 780px;
     }
 footer {
     font-size: 10pt;
