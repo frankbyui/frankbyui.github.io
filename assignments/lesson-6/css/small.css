@@ -34,13 +34,13 @@ header img {
     margin: 10px;
     }
 header .brand {
-    font-size: 1.5rem;
+    font-size: 2rem;
     margin: 20px;
     }
 header .motto {
-    font-size: .8rem;
+    font-size: .7rem;
     font-style: italic;
-    margin: 0px;
+    margin: 10px;
     }
 nav .hide {
     display: none;
