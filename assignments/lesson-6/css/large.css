@@ -99,12 +99,19 @@ main h2 {
     width: 400px;
     height: 400px;
     }
-#summary #weathsumm { 
-    position: relative;
-    width: 25%;
-    height: 25%;
+#weathsumm { 
+    position: absolute;
+    top: 400px;
+    left: 20px;
+    width: 150px;
+    height: 140px;
     margin-left: 2%;
     color: #5e6266;
+    padding: 5px;
+    font-size: .8rem;
+    background-color: rgba(255,255,255,0.5);
+    border: solid 1px black; 
+    box-shadow: 5px 5px 5px 10px #5e6266;
     }
 footer {
     font-size: 10pt;
