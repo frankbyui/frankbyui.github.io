@@ -1,34 +1,48 @@
 /* Stylesheet large.css */
 
+h1 {
+    font-size: 2rem;
+    color: #313335;
+    }
+h2 {
+    font-size: 1.5rem;
+    text-align: left;
+    color: #5e6266;
+    }
+h3 {
+    font-size: 1rem;
+    color: #5e6266;    
+    }
 header {
     font-family: 'Merriweather', serif;
     background-color: #83b8e7;
-    margin: 24px;
+    margin: 10px auto;
+    text-align: center;
+    box-shadow: 0 0 30px #777;
+    }
+header {
+    color: #313335;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
     }
 header img {
-    width: 20%;
-    height: 20%;
+    display: inline-block;
+    vertical-align: middle;
+    width: 40px;
+    height: 60px;
     float: left;
-    padding: 12px;
+    margin: 10px;
     }
-.brand {
-    font-size: 2rem;
-    color: #313335;
-    text-align: center;
+h1 .brand {
+    font-size: 1.5rem;
+    margin: 20px;
     }
-.motto {
-    font-size: 1rem;
+header .motto {
+    font-size: .8rem;
     font-style: italic;
-    text-align: center;
-    color: #313335;
-    }
-main img{
-    width: 100%;
-    }
-.weathsumm {
-    width: 300px;
-    height: 300px;
-    color: #5e6266;
+    margin: 10px;
     }
 nav {
     text-align: center;
@@ -42,56 +56,48 @@ nav h2 {
     color: #313335;
     }
 nav ul {
+    display: inline-block;
     list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: hidden;
     background-color: #5e6266;
     font-size: 1rem;
     }
-nav li {
-    float: left;
-}
 nav li a {
     display: block;
     color: #313335;
-    text-align: center;
+    padding: 8px 16px;
     text-decoration: none;
     font-size: 1rem;
     }
 nav li a:hover {
     background-color: #313335;
     color: #83b8e7;
-    font-size: 1rem;
     }
 nav li a.active {
     background-color: #83b8e7;
     color: #313335;
     border-style: solid;
     border-color: #555555
-}
+    }
 nav li a:hover:not(.active) {
     background-color: #555555;
     color: #83b8e7;
-}
-h1 {
-    font-family: 'Merriweather', serif;
-    font-size: 2rem;
-    color: #313335;
     }
-h2 {
-    font-size: 1.5rem;
-    text-align: left;
+main h2 {
+    text-align: center;
+    margin: 20px;
+    }
+#summary {
+    width: 400px;
+    height: 400px;
+    }
+#summary #weathsumm { 
+    position: relative;
+    width: 25%;
+    height: 25%;
+    margin-left: 2%;
     color: #5e6266;
-    }
-h3 {
-    font-size: 1rem;
-    color: #5e6266;    
-    }
-header, main, nav, footer {
-    margin: .5rem auto;
-    padding: .5rem;
-    max-width: 780px;
     }
 footer {
     font-size: 10pt;

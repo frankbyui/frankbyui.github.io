@@ -37,28 +37,12 @@ header img {
     }
 h1 .brand {
     font-size: 1.5rem;
-    margin: auto;
+    margin: 20px;
     }
 header .motto {
     font-size: .8rem;
     font-style: italic;
-    margin: bottom 20px;
-    }
-main h2 {
-    text-align: center;
-    margin: 20px;
-    }
-#summary {
-    width: 400px;
-    height: 400px;
-    overflow: hidden;
-    }
-#summary #weathsumm { 
-    position: relative;
-    width: 25%;
-    height: 25%;
-    margin-left: 2%;
-    color: #5e6266;
+    margin: 10px;
     }
 nav {
     text-align: center;
@@ -99,6 +83,21 @@ nav li a.active {
 nav li a:hover:not(.active) {
     background-color: #555555;
     color: #83b8e7;
+    }
+main h2 {
+    text-align: center;
+    margin: 20px;
+    }
+#summary {
+    width: 400px;
+    height: 400px;
+    }
+#summary #weathsumm { 
+    position: relative;
+    width: 25%;
+    height: 25%;
+    margin-left: 2%;
+    color: #5e6266;
     }
 footer {
     font-size: 10pt;
