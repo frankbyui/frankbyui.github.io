@@ -13,7 +13,8 @@ h2 {
 h3 {
     font-size: 1rem;
     color: #5e6266;    
-    }header {
+    }
+header {
     font-family: 'Merriweather', serif;
     background-color: #83b8e7;
     margin: 24px;
@@ -29,12 +30,13 @@ header img {
     width: 10%;
     height: 10%;
     float: left;
-    margin: 10px;
+    margin: 8px;
     }
 h1 .brand {
     font-size: 1.5rem;
     padding: 0px;
     margin: 0px;
+    border: 0px;
     }
 div.motto {
     font-size: .8rem;
@@ -46,7 +48,7 @@ main img{
     height: 100%;
     }
 div .weathsumm {
-    inset: 10% 10% 10%;
+    
     color: #5e6266;
     }
 nav {
