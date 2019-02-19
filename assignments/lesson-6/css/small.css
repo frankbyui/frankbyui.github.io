@@ -26,10 +26,9 @@ div.motto {
 main img{
     width: 100%;
     }
-.forecast tbody{
+.forecast tbody {
     align-items: center;
     }
-
 .weathsumm {
     width: 200px;
     height: 200px;
@@ -68,18 +67,17 @@ nav li a {
 nav li a:hover {
     background-color: #313335;
     color: #83b8e7;
-    font-size: 1rem;
     }
 nav li a.active {
     background-color: #83b8e7;
     color: #313335;
     border-style: solid;
     border-color: #555555
-}
+    }
 nav li a:hover:not(.active) {
     background-color: #555555;
     color: #83b8e7;
-}
+    }
 h1 {
     font-family: 'Merriweather', serif;
     font-size: 2rem;
@@ -93,11 +91,6 @@ h2 {
 h3 {
     font-size: 1rem;
     color: #5e6266;    
-    }
-header, main, nav, footer {
-    margin: .5rem auto;
-    padding: .5rem;
-    max-width: 500px;
     }
 footer {
     font-size: 10pt;
