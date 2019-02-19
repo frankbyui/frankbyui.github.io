@@ -44,15 +44,15 @@ header .motto {
     font-style: italic;
     margin: 0px;
     }
-nav .hide {
-    display: none;
-    }
 nav {
     text-align: center;
     font-family: 'Merriweather', serif;
     background-color: #83b8e7;
     color: #313335;  
     font-size: 1rem;
+    }
+nav .smallmenu {
+    display: none;
     }
 nav h2 {
     text-align: center;

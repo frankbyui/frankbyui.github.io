@@ -33,9 +33,11 @@ header img {
     float: left;
     margin: 10px;
     }
-h1 .brand {
-    font-size: 1.5rem;
+header .brand {
+    font-family: 'Merriweather', serif;
+    font-size: 2rem;
     margin: 20px;
+    padding: 10px;
     }
 header .motto {
     font-size: .8rem;
@@ -49,10 +51,11 @@ nav {
     background-color: #83b8e7;
     color: #313335;  
     font-size: 1rem;
+    overflow: hidden;
     }
-nav .smallmenu {
+nav .hide {
     display: none;
-}
+    }
 nav h2 {
     text-align: center;
     color: #313335;
