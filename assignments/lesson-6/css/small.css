@@ -39,10 +39,10 @@ h1 .brand {
     font-size: 1.5rem;
     margin: auto;
     }
-header div .motto {
+header .motto {
     font-size: .8rem;
     font-style: italic;
-    margin: center; 
+    margin: bottom 20px;
     }
 main img{
     width: 100%;
