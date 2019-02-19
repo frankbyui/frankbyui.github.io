@@ -51,6 +51,9 @@ nav {
     color: #313335;  
     font-size: 1rem;
     }
+nav .smallmenu{
+    display=none;
+}
 nav h2 {
     text-align: center;
     color: #313335;
