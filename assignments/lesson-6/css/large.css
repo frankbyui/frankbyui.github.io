@@ -46,6 +46,7 @@ header .motto {
     padding-bottom: 10px;
     }
 nav {
+    width: 100%;
     display: block;
     text-align: center;
     font-family: 'Merriweather', serif;
