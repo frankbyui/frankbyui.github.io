@@ -4,9 +4,9 @@ header {
     font-family: 'Merriweather', serif;
     background-color: #83b8e7;
     }
-header img {
-    width: 5%;
-    height: 5%;
+header .logo {
+    width: 50%;
+    height: 50%;
     float: left;
 	vertical-align: top;
     padding: 12px;
