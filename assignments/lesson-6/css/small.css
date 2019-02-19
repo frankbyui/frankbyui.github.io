@@ -96,7 +96,8 @@ main img {
     height: 400px;
     }
 */
-    #summary #weathsumm { 
+#weathsumm {
+    display: block; 
     position: relative;
     width: 25%;
     height: 25%;
