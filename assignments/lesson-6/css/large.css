@@ -46,13 +46,12 @@ header .motto {
     padding-bottom: 10px;
     }
 nav {
-    display: inline;
+    display: block;
     text-align: center;
     font-family: 'Merriweather', serif;
     background-color: #83b8e7;
     color: #313335;  
     font-size: 1rem;
-    overflow: hidden;
     }
 nav .hide {
     display: none;
