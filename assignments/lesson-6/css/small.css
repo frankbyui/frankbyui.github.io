@@ -103,6 +103,7 @@ main img {
     height: 25%;
     margin-left: 2%;
     color: #5e6266;
+    font-size: .5rem;
     }
 #forecast {
     display: none;
