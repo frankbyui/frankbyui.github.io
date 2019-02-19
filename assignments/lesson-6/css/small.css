@@ -30,15 +30,15 @@ header {
 header img {
     display: inline-block;
     vertical-align: middle;
-    width: 50px;
-    height: 75px;
+    width: 40px;
+    height: 60px;
     float: left;
     margin: 10px;
     }
 h1 .brand {
     font-size: 1.5rem;
     }
-div .motto {
+header div .motto {
     font-size: .8rem;
     font-style: italic;
     margin-bottom: 20px;
