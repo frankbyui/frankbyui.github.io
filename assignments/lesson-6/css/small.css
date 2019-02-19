@@ -32,6 +32,10 @@ main img{
     height: 300px;
     color: #5e6266;
     }
+.temperature {
+    text-align: center;
+    color: #5e6266;
+    }
 nav {
     text-align: center;
     font-family: 'Merriweather', serif;
