@@ -1,0 +1,98 @@
+/* Stylesheet large-5.css */
+
+header {
+    font-family: 'Merriweather', serif;
+    background-color: #83b8e7;
+    margin: 24px;
+    }
+header img {
+    width: 20%;
+    height: 20%;
+    float: left;
+    padding: 12px;
+    }
+.brand {
+    font-size: 2rem;
+    color: #313335;
+    text-align: center;
+    }
+.motto {
+    font-size: 1rem;
+    font-style: italic;
+    text-align: center;
+    color: #313335;
+    }
+main img{
+    width: 100%;
+    }
+.weathsumm {
+    width: 300px;
+    height: 300px;
+    color: #5e6266;
+    }
+nav {
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    background-color: #83b8e7;
+    color: #313335;  
+    font-size: 1rem;
+    }
+nav h2 {
+    text-align: center;
+    color: #313335;
+    }
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #5e6266;
+    font-size: 1rem;
+    }
+nav li {
+    float: left;
+}
+nav li a {
+    display: block;
+    color: #313335;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1rem;
+    }
+nav li a:hover {
+    background-color: #313335;
+    color: #83b8e7;
+    font-size: 1rem;
+    }
+nav li a.active {
+    background-color: #83b8e7;
+    color: #313335;
+    border-style: solid;
+    border-color: #555555
+}
+nav li a:hover:not(.active) {
+    background-color: #555555;
+    color: #83b8e7;
+}
+h1 {
+    font-family: 'Merriweather', serif;
+    font-size: 2rem;
+    color: #313335;
+    }
+h2 {
+    font-size: 1.5rem;
+    text-align: left;
+    color: #5e6266;
+    }
+h3 {
+    font-size: 1rem;
+    color: #5e6266;    
+    }
+header, main, nav, footer {
+    margin: .5rem auto;
+    padding: .5rem;
+    max-width: 780px;
+    }
+footer {
+    font-size: 10pt;
+    }
