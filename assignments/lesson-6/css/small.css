@@ -16,7 +16,9 @@ h3 {
 header {
     font-family: 'Merriweather', serif;
     background-color: #83b8e7;
-    margin: 24px;
+    margin: 10px auto;
+    text-align: center;
+    box-shadow: 0 0 30px #777;
     }
 header {
     color: #313335;
@@ -26,10 +28,12 @@ header {
     border: 0px;
     }
 header img {
+    display: inline-block;
+    vertical-align: middle;
     width: 20px;
     height: 20px;
     float: left;
-    margin: 8px;
+    margin: 10px;
     }
 h1 .brand {
     font-size: 1.5rem;
@@ -37,7 +41,7 @@ h1 .brand {
     margin: 0px;
     border: 0px;
     }
-#motto {
+div .motto {
     font-size: .8rem;
     font-style: italic;
     margin-bottom: 20px;
