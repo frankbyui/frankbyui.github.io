@@ -99,9 +99,9 @@ main img {
 #weathsumm {
     display: block; 
     position: relative;
-    width: 25%;
-    height: 25%;
-    margin-left: 2%;
+    width: 30%;
+    height: 30%;
+    padding: 25px;
     color: #5e6266;
     font-size: .8rem;
     }
