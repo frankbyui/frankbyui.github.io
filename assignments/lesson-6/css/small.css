@@ -51,7 +51,8 @@ nav {
     font-size: 1rem;
     position: absolute;
     left: 45%;
-    z-index: 1; 
+    z-index: 1;
+    width: 105px; 
     }
 .hide {
     list-style: none; 
