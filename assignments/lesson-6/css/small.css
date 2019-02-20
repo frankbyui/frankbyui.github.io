@@ -53,11 +53,18 @@ nav {
     font-size: 1rem;
     }
 .hide {
+    list-style: none; 
+    text-align: center;
+    }
+.hide li:first-child {
+    display: block;
+    }
+.hide li {
     display: none;
     }
 .show {
     display: block;
-}
+    }
 nav h2 {
     text-align: center;
     color: #313335;
