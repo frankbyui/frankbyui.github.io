@@ -96,7 +96,8 @@ nav li a:hover:not(.active) {
     background-color: #555555;
     color: #83b8e7;
     }
-main h2 {
+#place {
+    display: block;
     padding-top: 75px;
     text-align: center;
     margin: 0px;
@@ -127,6 +128,7 @@ footer {
     font-size: 10pt;
     }
 footer img {
-    height: 100%;
-    width: auto;
+    width: 100%;
+    height: auto;
+    border: solid 1px black;
     }
