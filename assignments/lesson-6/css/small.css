@@ -50,6 +50,7 @@ nav {
     font-family: 'Merriweather', serif;
     color: #313335;  
     font-size: 1rem;
+    z-index: 1; 
     }
 .hide {
     list-style: none; 
@@ -63,7 +64,6 @@ nav {
     }
 .show li {
     display: block !important;
-    z-index: 1; 
     }
 nav h2 {
     text-align: center;
