@@ -1,5 +1,5 @@
 // JS for toggling navigation menu //
 
-function togglenavMenu() {
+function toggleNavMenu() {
     document.getElementsByClassName("hide").classList.toggle("show");
     }
