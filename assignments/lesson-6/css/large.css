@@ -55,7 +55,7 @@ nav {
     color: #313335;  
     font-size: 1rem;
     }
-nav .hide {
+nav #primaryNav {
     display: inline;
     }
 nav h2 {
