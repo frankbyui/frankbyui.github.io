@@ -103,7 +103,7 @@ nav li a:hover:not(.active) {
 main h2 {
     padding-top: 50px;
     text-align: center;
-    margin: 15px 20px;
+    margin: 0px;
     }
 main img { 
     width: 100%;
