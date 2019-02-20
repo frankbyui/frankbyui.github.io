@@ -58,6 +58,9 @@ nav {
 nav .hide {
     display: inline;
     }
+nav #menuHam {
+    display: none;
+    }
 nav h2 {
     text-align: center;
     color: #313335;
