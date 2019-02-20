@@ -52,10 +52,10 @@ nav {
     color: #313335;  
     font-size: 1rem;
     }
-nav .hide {
+.hide {
     display: none;
     }
-nav .show {
+.show {
     display: block;
 }
 nav h2 {
