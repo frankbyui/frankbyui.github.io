@@ -62,8 +62,8 @@ nav {
 .hide li {
     display: none;
     }
-.show {
-    display: block;
+.show li {
+    display: block !important;
     }
 nav h2 {
     text-align: center;
