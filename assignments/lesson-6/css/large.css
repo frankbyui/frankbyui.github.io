@@ -94,8 +94,9 @@ nav li a:hover:not(.active) {
     color: #83b8e7;
     }
 main h2 {
+    display: block;
     text-align: center;
-    margin: 15px 20px;
+    margin: 20px;
     }
 main img {
     width: 100%;
