@@ -50,6 +50,7 @@ nav {
     font-family: 'Merriweather', serif;
     color: #313335;  
     font-size: 1rem;
+    position: relative;
     z-index: 1; 
     }
 .hide {

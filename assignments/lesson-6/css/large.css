@@ -88,8 +88,6 @@ nav a:hover {
 nav a.active {
     background-color: #83b8e7;
     color: #313335;
-    border-style: solid;
-    border-color: #555555
     }
 nav li a:hover:not(.active) {
     background-color: #555555;
