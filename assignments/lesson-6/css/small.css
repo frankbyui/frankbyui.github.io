@@ -66,10 +66,6 @@ nav {
 .show li {
     display: block !important;
     }
-nav h2 {
-    text-align: center;
-    color: #313335;
-    }
 nav ul {
     display: inline-block;
     list-style-type: none;
