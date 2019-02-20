@@ -136,7 +136,7 @@ main img {
 footer {
     font-size: 10pt;
     }
-footer img {
+#googlemap {
     width: 100%;
     height: auto;
     border: solid 1px black;
