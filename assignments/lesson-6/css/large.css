@@ -97,8 +97,8 @@ main h2 {
     text-align: center;
     margin: 15px 20px;
     }
-img .hero{
-    width: 100;
+main .hero{
+    width: 100%;
     height: auto;
     margin: 0px;
     }
