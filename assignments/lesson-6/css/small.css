@@ -57,7 +57,7 @@ nav {
     text-align: center;
     }
 .hide li:first-child {
-    display: block;
+    display: block !important;
     }
 .hide li {
     display: none;
