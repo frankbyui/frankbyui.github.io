@@ -136,3 +136,7 @@ main img {
 footer {
     font-size: 10pt;
     }
+footer img {
+    height: 100%;
+    width: auto;
+}
