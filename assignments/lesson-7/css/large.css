@@ -171,8 +171,14 @@ footer .contact{
     flex-flow: column wrap;
     align-self: center;
     }
+footer .contact:first-of-type {
+    flex-grow: 1;
+    }
+footer .contact:last-of-type {
+    flex-grow: 2;
+    }
 footer img {
-    width: 60%;
+    width: 40%;
     height: auto;
     margin: 1rem;
     border: solid 1px black;
