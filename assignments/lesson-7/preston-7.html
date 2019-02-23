@@ -45,11 +45,11 @@
 		</picture>
 		<div id="weathsumm">
 			<h3>Weather Summary</h3>
-			<p>Temperature: 35 degrees <br>
+			<p>Temperature: <span id="currtemp">35</span>&deg;<br>
 			   Humidity: 30% <br>
-			   Wind Speed: 20 mph <br>
+			   Wind Speed: <span id="currwind">20</span>mph<br>
 			   Wind Direction: NNW <br>
-			   Wind Chill: 25 degrees <br>
+			   Wind Chill: <div id="windchill"></div>&deg;<br>
 			</p>
 		</div>   
 	</section>
@@ -68,11 +68,11 @@
 			</thead>
 			<tbody>
 				<tr>
-					<td><img src="images/rainsnow.png" id="weathericonone" alt="Weather Icon"><br>High <span id="temperature1"></span>37&deg;F</td>
-					<td><img src="images/overcast.png" id="weathericontwo" alt="Weather Icon"><br>High <span id="temperature2"></span>35&deg;F</td>
-					<td><img src="images/sunny.png" id="weathericonthree" alt="Weather Icon"><br>High <span id="temperature3"></span>33&deg;F</td>
-					<td><img src="images/pcloudy.png" id="weathericonfour" alt="Weather Icon"><br>High <span id="temperature4"></span>29&deg;F</td>
-					<td><img src="images/snow.png" id="weathericonfive" alt="Weather Icon"><br>High <span id="temperature5"></span>34&deg;F</td>
+					<td><img src="images/rainsnow.png" id="weathericonone" alt="Weather Icon"><br>High <span id="temperature1">37</span>&deg;F</td>
+					<td><img src="images/overcast.png" id="weathericontwo" alt="Weather Icon"><br>High <span id="temperature2">35</span>&deg;F</td>
+					<td><img src="images/sunny.png" id="weathericonthree" alt="Weather Icon"><br>High <span id="temperature3">33</span>&deg;F</td>
+					<td><img src="images/pcloudy.png" id="weathericonfour" alt="Weather Icon"><br>High <span id="temperature4">29</span>&deg;F</td>
+					<td><img src="images/snow.png" id="weathericonfive" alt="Weather Icon"><br>High <span id="temperature5">34</span>&deg;F</td>
 				</tr>
 			</tbody>
 		</table>
@@ -107,6 +107,7 @@
 <script src="scripts/currentdate.js"></script>
 <script src="scripts/map.js"></script>
 <script src="scripts/toggleNavMenu.js"></script>
+<script src="scripts/windspeed.js"></script>
 <!--  <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>  -->
 
 </body>
