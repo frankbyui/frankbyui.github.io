@@ -145,9 +145,14 @@ article img {
     height: auto;
     }
 footer {
+    color: #313335;
     font-size: 10pt;
     }
-#googlemap {
+footer aside {
+    float: left;
+    }
+footer img {
+    float: right;
     width: 100%;
     height: auto;
     border: solid 1px black;
