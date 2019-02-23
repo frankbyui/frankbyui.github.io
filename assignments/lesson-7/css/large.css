@@ -152,7 +152,7 @@ footer {
     font-size: 10pt;
     }
 footer aside {
-    display: inline-flex;
+    display: flex;
     justify-content: center;
     align-items: center;
     margin: 10px;
@@ -166,7 +166,7 @@ footer p:first-child {
     }
 footer .contact{
     display: inline-flex;
-    flex-flow: column nowrap;
+    flex-flow: column wrap;
     align-self: center;
     }
 footer img {
