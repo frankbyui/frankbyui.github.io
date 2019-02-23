@@ -157,10 +157,14 @@ footer aside {
 footer p {
     margin: 0px;
     }
+footer p:first-child {
+    font-size: 2rem;
+    margin: 1rem;
+    }
 footer .contact{
     display: inline-flex;
     flex-flow: column nowrap;
-    align-self: auto;
+    align-self: center;
     }
 footer img {
     width: 60%;
