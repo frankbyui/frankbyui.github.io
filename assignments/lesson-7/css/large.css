@@ -154,6 +154,9 @@ footer aside {
     justify-content: center;
     align-items: stretch;
     }
+footer p{
+    margin: 0px;
+    }
 footer .contact{
     display: inline-flex;
     flex-flow: column nowrap;
