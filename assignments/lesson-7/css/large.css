@@ -31,8 +31,11 @@ header img {
     float: left;
     margin: 10px;
     }
-header .brand {
-    font-family: 'Merriweather', serif;
+header .top{
+    display: flex;
+    flex-direction: column;
+}
+header .brand {  
     float: right;
     width: 100%;
     font-size: 2rem;
@@ -40,6 +43,7 @@ header .brand {
     }
 header .motto {
     font-size: .8rem;
+    width: 100%;
     font-style: italic;
     padding-bottom: 10px;
     }
