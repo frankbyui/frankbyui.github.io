@@ -141,7 +141,7 @@ main img {
     }
 article img {
     float: right;
-    width: 50%;
+    width: 60%;
     height: auto;
     }
 footer {
@@ -154,19 +154,25 @@ footer aside {
     justify-content: center;
     align-items: stretch;
     }
-footer p{
+footer p {
     margin: 0px;
     }
 footer .contact{
     display: inline-flex;
     flex-flow: column nowrap;
+    align-self: auto;
     }
 footer img {
+    width: 60%;
+    height: auto;
+    margin: 1rem;
     border: solid 1px black;
     }
 footer .copyright{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background: #83b8e7;
     width: 100%;
-    height: 20px;
-    text-align: center;
-}
+    height: 40px;
+    padding-top: 10px;
