@@ -54,6 +54,7 @@ nav {
 nav .hide {
     display: inline-flex;
     width: 100%;
+    height: auto;
     }
 nav #menuHam {
     display: none;
