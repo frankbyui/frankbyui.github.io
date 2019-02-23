@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta name="description" content="Preston Weather">
+	<!-- style sheets -->
+	<link href="css/normalize.css" rel="stylesheet">
+	<link href="css/small.css" rel="stylesheet" media="screen and (max-width: 600px)">
+    <link href="css/large.css" rel="stylesheet" media="screen and (min-width: 600px)">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet"> 
+	<title>Idaho Rain or Shine | Preston, Idaho</title>
+</head>
+
+<body>
+	<header>
+		<img src="images/logo.png" alt="IRS Logo">
+		<div class="brand">Idaho Rain or Shine</div>
+		<div class="motto">"Weather Your Way, Right Away"</div>
+	</header>	
+
+<nav>
+    <ul class="hide">
+		<li><a href="#" id="menuHam" onclick="toggleNavMenu()">Menu &#9776;</a></li>
+		<li><a href="home.hmtl">Home</a></li>
+		<li><a class="active" href="preston-6.hmtl">Preston</a></li> 
+		<li><a href="sodasprings.html">Soda Springs</a></li>
+		<li><a href="fishhaven.html">Fish Haven</a></li>
+		<li><a href="stormcenter.html">Storm Center</a></li>
+		<li><a href="gallery.html">Gallery</a></li>
+	</ul>
+</nav>
+
+  
+<main>
+	<div id=place>Preston, Idaho</div>
+	<section>
+		<picture>
+		<source srcset="images/herosmall.jpeg" media="(max-width: 600px)"  >
+		<source srcset="images/herolarge.jpeg" media="(min-width: 600px)">
+		<img src="images/herolarge.jpeg" alt="Sunny Day">
+		</picture>
+		<div id="weathsumm">
+			<h3>Weather Summary</h3>
+			<p>Temperature: 35 degrees <br>
+			   Humidity: 30% <br>
+			   Wind Speed: 20 mph <br>
+			   Wind Direction: NNW <br>
+			   Wind Chill: 25 degrees <br>
+			</p>
+		</div>   
+	</section>
+	
+	<section id="forecast">
+		<h2>5 Day Forecast</h2>
+		<table> 
+			<thead>
+				<tr>
+					<th><span id="dayone">Monday</span></th>
+					<th><span id="daytwo">Tuesday</span></th>
+					<th><span id="daythree">Wednesday</span></th>
+					<th><span id="dayfour">Thursday</span></th>
+					<th><span id="dayfive">Friday</span></th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td><img src="images/rainsnow.png" id="weathericonone" alt="Weather Icon"><br>High <span id="temperature1"></span>37&deg;F</td>
+					<td><img src="images/overcast.png" id="weathericontwo" alt="Weather Icon"><br>High <span id="temperature2"></span>35&deg;F</td>
+					<td><img src="images/sunny.png" id="weathericonthree" alt="Weather Icon"><br>High <span id="temperature3"></span>33&deg;F</td>
+					<td><img src="images/pcloudy.png" id="weathericonfour" alt="Weather Icon"><br>High <span id="temperature4"></span>29&deg;F</td>
+					<td><img src="images/snow.png" id="weathericonfive" alt="Weather Icon"><br>High <span id="temperature5"></span>34&deg;F</td>
+				</tr>
+			</tbody>
+		</table>
+	</section>		
+	
+	<article>
+		<h2>Article Title</h2>
+		<img src="images/placeholder.jpg" alt="Fall Leaves">
+		<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+		</p>
+    </article>
+</main>  
+
+<footer>
+	<aside>
+		<div class="contactinfo">
+		<p></p>
+		<p></p>	
+		</div>
+		<div id="googleMap">
+			<img src="images/prestonstatic.png" alt="Preston">
+		</div><br>
+	</aside>
+    
+	<p class="copyright">&copy;2019 Idaho Rain or Shine | <a href="termsofuse">Terms of Use</a> | <span id="currentdate"></span></p>
+</footer>
+
+<script src="scripts/hamburger.js"></script>
+<script src="scripts/currentdate.js"></script>
+<script src="scripts/map.js"></script>
+<script src="scripts/toggleNavMenu.js"></script>
+<!--  <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>  -->
+
+</body>
+</html>

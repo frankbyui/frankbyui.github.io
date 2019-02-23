@@ -1,0 +1,145 @@
+/* Stylesheet large.css */
+
+h1 {
+    font-size: 2rem;
+    color: #313335;
+    }
+h2 {
+    font-size: 1.5rem;
+    text-align: left;
+    color: #5e6266;
+    }
+h3 {
+    font-size: 1rem;
+    color: #5e6266;    
+    }
+header {
+    font-family: 'Merriweather', serif;
+    background-color: #83b8e7;
+    margin: 10px auto;
+    text-align: center;
+    }
+header {
+    color: #313335;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    }
+header img {
+    vertical-align: middle;
+    width: 40px;
+    height: 60px;
+    float: left;
+    margin: 10px;
+    }
+header .brand {
+    font-family: 'Merriweather', serif;
+    font-size: 2rem;
+    margin: 0px;
+    padding-top: 10px;
+    }
+header .motto {
+    font-size: .8rem;
+    font-style: italic;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 10px;
+    }
+nav {
+    width: 100%;
+    display: block;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    background-color: #83b8e7;
+    color: #313335;  
+    font-size: .8rem;
+    }
+nav .hide {
+    display: inline;
+    }
+nav #menuHam {
+    display: none;
+    }
+nav h2 {
+    text-align: center;
+    color: #313335;
+    }
+nav ul {
+    display: inline;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #5e6266;
+    font-size: 1rem;
+    }
+nav a {
+    float: left;
+    color: #313335;
+    text-align: center;
+    padding: 8px 16px;
+    text-decoration: none;
+    font-size: 1rem;
+    }
+nav a:hover {
+    background-color: #313335;
+    color: #83b8e7;
+    }
+nav a.active {
+    background-color: #83b8e7;
+    color: #313335;
+    }
+nav li a:hover:not(.active) {
+    background-color: #555555;
+    color: #83b8e7;
+    }
+#place {
+    display: block;
+    text-align: center;
+    margin: 20px;
+    font-size: 2rem;
+    color: #313335;
+    }
+main img {
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    }
+#forecast table{
+    margin-left: auto;
+    margin-right: auto;
+    }
+#summary {
+    width: 400px;
+    height: 400px;
+    }
+#weathsumm { 
+    display: block;
+    position: absolute;
+    top: 200px;
+    left: 20px;
+    width: 150px;
+    height: 160px;
+    margin-left: 5%;
+    color: #313335;
+    padding: 10px;
+    font-size: 1rem;
+    background-color: rgba(255,255,255,0.5);
+    border: solid 1px black; 
+    box-shadow: 2px 2px 2px 2px;
+    }
+#forecast h2 {
+    display: block;
+    font-size: 1.5rem;
+    padding-top: 20px;
+    text-align: center;
+    color: #313335;
+    }
+footer {
+    font-size: 10pt;
+    }
+#googlemap {
+    width: 100%;
+    height: auto;
+    border: solid 1px black;
+}
