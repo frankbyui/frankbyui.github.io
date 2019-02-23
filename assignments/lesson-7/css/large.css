@@ -152,7 +152,7 @@ footer {
 footer aside {
     display: inline-flex;
     justify-content: center;
-    align-items: stretch;
+    align-items: center;
     }
 footer p {
     margin: 0px;
