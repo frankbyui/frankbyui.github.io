@@ -106,6 +106,9 @@ nav li a:hover:not(.active) {
     }
 main .gallery {
     display: grid;
+    column-gap: 10px;
+    row-gap: 10px;
+    grid-template-columns: 2;
     }
 #weathsumm {
     display: block; 

@@ -54,7 +54,6 @@ nav {
     background-color: #83b8e7;
     color: #313335;  
     font-size: .8rem;
-    min-width: 
     }
 nav .hide {
     display: flex;
@@ -109,6 +108,7 @@ main .gallery {
     display: grid;
     column-gap: 10px;
     row-gap: 10px;
+    grid-template-columns: 3;
     }
 #forecast table{
     margin-left: auto;
