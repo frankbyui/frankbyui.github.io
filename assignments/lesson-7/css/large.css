@@ -150,14 +150,15 @@ footer {
     font-size: 10pt;
     }
 footer aside {
-    float: left;
-    width: 50%;
-    height: auto;
+    display: inline-flex;
+    justify-content: center;
+    align-items: stretch;
+    }
+footer .contact{
+    display: inline-flex;
+    flex-flow: column nowrap;
     }
 footer img {
-    float: right;
-    width: 50%;
-    height: auto;
     border: solid 1px black;
     }
 footer .copyright{
