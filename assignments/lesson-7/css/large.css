@@ -139,6 +139,11 @@ main img {
     text-align: center;
     color: #313335;
     }
+article img {
+    float: right;
+    width: 33%;
+    height: auto;
+    }
 footer {
     font-size: 10pt;
     }
@@ -146,4 +151,4 @@ footer {
     width: 100%;
     height: auto;
     border: solid 1px black;
-}
+    }
