@@ -54,6 +54,7 @@ nav {
     background-color: #83b8e7;
     color: #313335;  
     font-size: .8rem;
+    min-width: 
     }
 nav .hide {
     display: flex;

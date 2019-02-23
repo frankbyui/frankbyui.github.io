@@ -134,9 +134,11 @@ footer {
     }
 footer aside {
     display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     margin: 10px;
+    background-color: #83b8e7;
     }
 footer p {
     margin: 0px 0px;
@@ -151,7 +153,7 @@ footer .contact{
     align-self: center;
     }
 footer img {
-    width: 60%;
+    width: 90%;
     height: auto;
     margin: 1rem;
     border: solid 1px black;
