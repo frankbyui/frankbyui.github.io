@@ -141,7 +141,7 @@ main img {
     }
 article img {
     float: right;
-    width: 33%;
+    width: 50%;
     height: auto;
     }
 footer {
@@ -150,10 +150,18 @@ footer {
     }
 footer aside {
     float: left;
+    width: 50%;
+    height: auto;
     }
 footer img {
     float: right;
-    width: 100%;
+    width: 50%;
     height: auto;
     border: solid 1px black;
     }
+footer .copyright{
+    background: #83b8e7;
+    width: 100%;
+    height: 20px;
+    text-align: center;
+}
