@@ -14,17 +14,16 @@ h3 {
     color: #5e6266;    
     }
 header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    align-self: center;
     font-family: 'Merriweather', serif;
     background-color: #83b8e7;
     margin: 10px auto;
     text-align: center;
-    }
-header {
     color: #313335;
-    text-align: center;
-    margin: 0px;
-    padding: 0px;
-    border: 0px;
     }
 header img {
     vertical-align: middle;
@@ -35,15 +34,14 @@ header img {
     }
 header .brand {
     font-family: 'Merriweather', serif;
+    float: right;
+    width: 100%;
     font-size: 2rem;
-    margin: 0px;
     padding-top: 10px;
     }
 header .motto {
     font-size: .8rem;
     font-style: italic;
-    margin-left: auto;
-    margin-right: auto;
     padding-bottom: 10px;
     }
 nav {
