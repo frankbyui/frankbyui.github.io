@@ -20,7 +20,6 @@ nav #menuHam {
 nav h2 {
     text-align: center;
     color: #313335;
-    width: 100%;
     }
 nav ul {
     display: inline;
@@ -30,7 +29,7 @@ nav ul {
     background-color: #5e6266;
     font-size: 1rem;
     }
-nav li a {
+nav a {
     float: left;
     color: #313335;
     text-align: center;
@@ -38,11 +37,11 @@ nav li a {
     text-decoration: none;
     font-size: 1rem;
     }
-nav li a:hover {
+nav a:hover {
     background-color: #313335;
     color: #83b8e7;
     }
-nav li a.active {
+nav a.active {
     background-color: #83b8e7;
     color: #313335;
     }
