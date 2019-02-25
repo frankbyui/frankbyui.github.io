@@ -12,7 +12,7 @@ nav {
     font-size: .8rem;
     }
 nav .hide {
-    display: inline;
+    display: inline !important;
     }
 nav #menuHam {
     display: none;
@@ -29,7 +29,7 @@ nav ul {
     background-color: #5e6266;
     font-size: 1rem;
     }
-nav a {
+nav li a {
     float: left;
     color: #313335;
     text-align: center;
