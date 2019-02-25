@@ -1,3 +1,5 @@
+/* Windspeed Script */
+
 var temp = parseInt(document.getElementById('currtemp').innerHTML);
 var wind = parseInt(document.getElementById('currwind').innerHTML);
 
