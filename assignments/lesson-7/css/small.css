@@ -113,7 +113,17 @@ main .gallery {
     display: grid;
     padding: 0 2%;
     grid-template-columns: repeat(1, 100%);
-        }
+    }
+main .gallery figure img {
+    width: 100%;
+    height: auto;
+    }
+main .gallery figure figcaption {
+    font-family: 'Merriweather', serif;
+    text-align: center;
+    font-size: 1.2rem;
+    padding: 2% 1%;
+    }   
 #weathsumm {
     display: block; 
     position: absolute;
