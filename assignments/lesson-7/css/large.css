@@ -1,52 +1,7 @@
 /* Stylesheet large.css */
 
-h1 {
-    font-size: 2rem;
-    color: #313335;
-    }
-h2 {
-    font-size: 1.5rem;
-    text-align: left;
-    color: #5e6266;
-    }
-h3 {
-    font-size: 1rem;
-    color: #5e6266;    
-    }
-header {
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-items: stretch;
-    align-self: center;
-    font-family: 'Merriweather', serif;
-    background-color: #83b8e7;
-    text-align: center;
-    color: #313335;
-    }
-header img {
-    vertical-align: middle;
-    width: 40px;
-    height: 60px;
-    float: left;
-    margin: 10px;
-    }
-header .top {
-    display: flex;
-    flex-direction: column;
-    }
-header .brand {  
-    float: right;
-    width: 100%;
-    font-size: 2rem;
-    padding-top: 10px;
-    }
-header .motto {
-    font-size: .8rem;
-    width: 100%;
-    font-style: italic;
-    padding-bottom: 10px;
-    }
+@media only screen and (min-width: 60rem) {
+
 nav {
     width: 100%;
     text-align: center;
@@ -103,12 +58,7 @@ nav li a:hover:not(.active) {
     margin: 20px;
     font-size: 2rem;
     color: #313335;
-    }
-main img { 
-    width: 100%;
-    height: auto;
-    margin: 0px;
-    }    
+    }  
 main .gallery {
     display: grid;
     padding: 0 2%;
@@ -197,3 +147,4 @@ footer .copyright {
     padding-top: 10px;
     font-size: .7rem;
     }
+}
