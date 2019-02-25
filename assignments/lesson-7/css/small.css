@@ -112,7 +112,6 @@ main .gallery {
     display: grid;
     padding: 0 2%;
     grid-template-columns: repeat(1, 100%);
-    background-color: black;
         }
 #weathsumm {
     display: block; 

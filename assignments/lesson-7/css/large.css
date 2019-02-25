@@ -48,10 +48,9 @@ main .gallery {
     display: grid;
     padding: 0 2%;
     grid-template-columns: repeat(3, 1fr);
-    background-color: black;
     }
 main .gallery figure:hover {
-    box-shadow: 3px 3px 6px lightgrey;
+    box-shadow: 3px 3px 6px darkgrey;
     }
 #forecast table{
     margin-left: auto;

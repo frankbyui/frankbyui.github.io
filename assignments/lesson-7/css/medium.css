@@ -5,6 +5,5 @@ main .gallery {
     display: grid;
     padding: 0 2%;
     grid-template-columns: repeat(2, 1fr);
-    background-color: black;
     }
 }
