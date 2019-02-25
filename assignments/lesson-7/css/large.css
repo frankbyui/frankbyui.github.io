@@ -12,10 +12,7 @@ nav {
     font-size: .8rem;
     }
 nav .hide {
-    display: inline-flex;
-    justify-content: center;
-    width: 100%;
-    height: auto;
+    display: inline;
     }
 nav #menuHam {
     display: none;
