@@ -12,8 +12,11 @@ nav {
     font-size: .8rem;
     }
 nav .hide {
-    display: inline !important;
+    display: inline;
     }
+nav .hide li {
+    display: inline;
+}
 nav #menuHam {
     display: none;
     }
