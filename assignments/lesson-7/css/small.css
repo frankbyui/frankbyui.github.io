@@ -56,7 +56,8 @@ nav {
     z-index: 1;
     }
 nav .hide {
-    display: none;
+    list-style: none; 
+    text-align: center;
     }
 nav .hide li:first-child {
     display: block !important;
