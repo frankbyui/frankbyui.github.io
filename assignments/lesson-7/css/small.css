@@ -105,7 +105,7 @@ nav li a:hover:not(.active) {
     font-size: 2rem;
     color: #313335;
     }
-main img { 
+main #hero { 
     width: 100%;
     height: auto;
     margin: 0px;
