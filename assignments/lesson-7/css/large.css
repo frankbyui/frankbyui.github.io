@@ -96,6 +96,9 @@ main .gallery figure:hover {
     text-align: center;
     color: #313335;
     }
+#forecast h2{
+    text-align: center;
+    }
 article img {
     float: right;
     width: 350px;
