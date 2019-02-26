@@ -96,7 +96,8 @@ main .gallery figure:hover {
     text-align: center;
     color: #313335;
     }
-#forecast h2{
+#forecasthead {
+    display: inline-block;
     text-align: center;
     }
 article img {
