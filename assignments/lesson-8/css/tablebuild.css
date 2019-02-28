@@ -1,5 +1,7 @@
 /* tablebuild.css */
 
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
 table {
     table-layout: auto;
     width: 100%;
