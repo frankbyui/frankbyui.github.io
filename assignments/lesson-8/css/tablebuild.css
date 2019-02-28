@@ -3,12 +3,12 @@
 table {
     table-layout: fixed;
     width: 100%;
-    border-collapse: collapse;
     border: 2px solid black;
     font-family: "Ubuntu", sans-serif;
 }
 thead {
     background-color: #7fb9c2;
+    text-align: center;
 }
 tbody:nth-child(1) {
     background-color: #628ca6;
@@ -22,4 +22,5 @@ tbody:nth-child(2n+1) {
 }
 tfooter {
     background-color: #628ca6;
+    text-align: center;
 }
