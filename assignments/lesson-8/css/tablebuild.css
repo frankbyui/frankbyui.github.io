@@ -1,23 +1,26 @@
 /* tablebuild.css */
 
 table {
-    table-layout: fixed;
+    table-layout: auto;
     width: 100%;
     border: 2px solid black;
     font-family: "Ubuntu", sans-serif;
     text-align: center;
+    box-shadow: 1px #628ca6;
+}
+th, td {
+    padding: 5px;
 }
 thead {
     background-color: #7fb9c2;
 }
-
-tbody:nth-child(odd) {
+tr:nth-child(odd) {
     background-color: #e7f0ed;
 }
-tbody:nth-child(even) {
+tr:nth-child(even) {
     background-color: #e7ffed;
 }
-tbody tr:nth-child(1) {
+tr:nth-child(1) {
     background-color: #628ca6;
     color: white;
 }
