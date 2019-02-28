@@ -4,17 +4,18 @@ table {
     table-layout: auto;
     width: 100%;
     border: 2px solid black;
-    font-family: "Ubuntu", sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     text-align: center;
-    box-shadow: 1px #628ca6;
+    box-shadow: 5px 5px 5px #628ca6;
 }
 th, td {
     padding: 10px;
-}
-thead {
+} 
+thead th {
     background-color: #7fb9c2;
+    width: 100px;
 }
- tr:nth-child(odd) {
+tr:nth-child(odd) {
     background-color: #e7f0ed;
 }
  tr:nth-child(even) {
@@ -24,7 +25,7 @@ tbody tr:nth-child(1) {
     background-color: #628ca6;
     color: white;
 }
-tfoot tr {
+tfoot tr td {
     background-color: #628ca6;
 }
 tbody tr:nth-child(6) td:nth-child(1) {
