@@ -2,6 +2,7 @@
 
 table {
     table-layout: fixed;
+    border-collapse: collapse;
     width: 100%;
     border: 2px solid black;
     font-family: "Ubuntu", sans-serif;
@@ -9,6 +10,7 @@ table {
 thead {
     background-color: #7fb9c2;
     text-align: center;
+    column-span: "3";
 }
 tbody:nth-child(1) {
     background-color: #628ca6;
@@ -20,7 +22,8 @@ tbody:nth-child(2n) {
 tbody:nth-child(2n+1) {
     background-color: #e7ffed;
 }
-tfooter {
+tfoot {
     background-color: #628ca6;
     text-align: center;
+    column-span: "3";
 }
