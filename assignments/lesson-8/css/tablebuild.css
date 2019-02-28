@@ -24,6 +24,13 @@ tbody tr:nth-child(1) {
     background-color: #628ca6;
     color: white;
 }
-tfoot {
+tfoot tr {
     background-color: #628ca6;
+}
+tbody tr:nth-child(6) td:nth-child(1) {
+    font-style: italic;
+}
+tbody tr:nth-child(5) td:nth-child(3) {
+    background-color: #628ca6;
+    color: white;
 }
