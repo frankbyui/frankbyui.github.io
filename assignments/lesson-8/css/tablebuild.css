@@ -1,0 +1,25 @@
+/* tablebuild.css */
+
+table {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    border: 2px solid black;
+    font-family: "Ubuntu", sans-serif;
+}
+thead {
+    background-color: #7fb9c2;
+}
+tbody:nth-child(1) {
+    background-color: #628ca6;
+    color: white;
+}
+tbody:nth-child(2n) {
+    background-color: #e7f0ed;
+}
+tbody:nth-child(2n+1) {
+    background-color: #e7ffed;
+}
+tfooter {
+    background-color: #628ca6;
+}
