@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css?family=Ubuntu');
 
 table {
-    table-layout: auto;
+    border-collapse: collapse;
     width: 450px;
     font-family: 'Ubuntu', sans-serif;
     text-align: center;
@@ -11,6 +11,7 @@ table {
 }
 th, td {
     padding: 10px;
+    border: 1px solid #dddddd;
 } 
 thead th {
     background-color: #7fb9c2;
