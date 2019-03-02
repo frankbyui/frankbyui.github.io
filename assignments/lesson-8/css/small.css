@@ -1,0 +1,186 @@
+/* Stylesheet small.css */
+
+h1 {
+    font-size: 2rem;
+    color: #313335;
+    }
+h2 {
+    font-size: 1.5rem;
+    text-align: left;
+    color: #5e6266;
+    }
+h3 {
+    font-size: 1rem;
+    color: #5e6266;    
+    }
+header {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: stretch;
+    align-self: center;
+    font-family: 'Merriweather', serif;
+    background-color: #83b8e7;
+    text-align: center;
+    color: #313335;
+    }
+header img {
+    vertical-align: middle;
+    width: 40px;
+    height: 60px;
+    float: left;
+    margin: 10px;
+    }
+header .top {
+    display: flex;
+    flex-direction: column;
+    }
+header .brand {  
+    float: right;
+    width: 100%;
+    font-size: 2rem;
+    padding-top: 10px;
+    }
+header .motto {
+    font-size: .7rem;
+    font-style: italic;
+    padding-bottom: 10px;
+    }
+nav {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    color: #313335;  
+    font-size: .8rem;
+    position: absolute;
+    z-index: 1;
+    }
+nav .hide {
+    list-style: none; 
+    text-align: center;
+    }
+nav .hide li:first-child {
+    display: block !important;
+    }
+nav .hide li {
+    display: none;
+    }
+nav .show li {
+    display: block !important;
+    }
+nav ul {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    background-color: #5e6266;
+    font-size: 1rem;
+    }
+nav li a {
+    color: #313335;
+    padding: 0px 16px;
+    text-decoration: none;
+    font-size: .8rem;
+    }
+nav li a:hover {
+    background-color: #313335;
+    color: #83b8e7;
+    }
+nav li a.active {
+    background-color: #83b8e7;
+    color: #313335;
+    border-style: solid;
+    border-color: #555555
+    }
+nav li a:hover:not(.active) {
+    background-color: #555555;
+    color: #83b8e7;
+    }
+#place {
+    display: block;
+    padding-top: 40px;
+    text-align: center;
+    margin: 10px;
+    font-size: 2rem;
+    color: #313335;
+    }
+main img { 
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    }
+main .gallery {
+    display: grid;
+    padding: 0 2%;
+    grid-template-columns: repeat(1, 100%);
+    }
+main .gallery figure img {
+    width: 100%;
+    height: auto;
+    }
+main .gallery figure figcaption {
+    font-family: 'Merriweather', serif;
+    text-align: center;
+    font-size: 1.2rem;
+    padding: 2% 1%;
+    }   
+#weathsumm {
+    display: block; 
+    position: absolute;
+    top: 225px;
+    left: 20px;
+    width: 150px;
+    height: 140px;
+    color: #313335;
+    padding: 5px;
+    font-size: .8rem;
+    background-color: rgba(255,255,255,0.5);
+    border: solid 1px black; 
+    box-shadow: 2px 2px 2px 2px;
+    }
+#forecast {
+    display: none;
+    }
+footer {
+    font-family: 'Merriweather', serif;
+    padding-top: 30px;
+    color: #313335;
+    font-size: 10pt;
+    }
+footer aside {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    background-color: #83b8e7;
+    }
+footer p {
+    margin: 0px 0px;
+    }
+footer p:first-child {
+    font-size: 1rem;
+    margin: 1rem 0rem;
+    }
+footer .contact{
+    display: inline-flex;
+    flex-flow: column wrap;
+    align-self: center;
+    }
+footer img {
+    width: 40%;
+    height: auto;
+    margin: 1rem;
+    border: solid 1px black;
+    }
+footer .copyright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #83b8e7;
+    width: 100%;
+    height: 40px;
+    padding-top: 10px;
+    font-size: .7rem;
+    }

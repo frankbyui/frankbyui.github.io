@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta name="description" content="Storm Center">
+	<!-- style sheets -->
+	<link href="css/normalize.css" rel="stylesheet">
+    <link href="css/small.css" rel="stylesheet">
+    <link href="css/medium.css" rel="stylesheet">
+    <link href="css/large.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet"> 
+    <title>Idaho Rain or Shine | Storm Center</title>
+</head>
+
+<body>
+	<header>
+        <img src="images/logo.png" alt="IRoS Logo">
+        <div class="top">
+		<div class="brand">Idaho Rain or Shine</div>
+        <div class="motto">"Weather Your Way, Right Away"</div>
+        </div>
+	</header>	
+
+<nav>
+    <ul class="hide">
+		<li><a href="#" id="menuHam" onclick="toggleNavMenu()">&#9776;</a></li>
+		<li><a href="home.hmtl">Home</a></li>
+		<li><a href="preston-7.html">Preston</a></li> 
+		<li><a href="sodasprings.html">Soda Springs</a></li>
+		<li><a href="fishhaven.html">Fish Haven</a></li>
+		<li><a class="active" href="stormcenter.html">Storm Center</a></li>
+		<li><a href="gallery-7.html">Gallery</a></li>
+	</ul>
+</nav>
+
+<main>
+    <div id="place">Storm Center</div>
+    
+    <form action="thanks.html" method="get" enctype="form-data" name="Storm Form" id="userform">
+        
+        <fieldset>
+            <legend><span>Contact Information</span></legend>
+            <span>Full Name (required)</span><br>
+                <input type="text" name="fullname" patten=[a-zA-Z -._]{5,99] required><br>
+            <span>Email:</span><br>
+                <input type="email" name="email" placeholder="example@youremail.com"><br>
+            <span>Phone Number</span><br>
+                <input type="tel" name="telephone" pattern=[0-9]{10,20} required><br>
+            <span>Zip Code</span><br>
+                <input type="number" name="zipcode"><br>
+        </fieldset>
+            
+        <fieldset>
+            <legend><span>Storm Information</span></legend>
+            <span> Storm Date</span><br>
+                <input type="date" name="stormdate"><br>
+            <span>Storm Type</span><br> 
+                <input type="text" list="range" name="stormtype">
+                <datalist id="range">
+                <option value="Flash Flood">
+                <option value="Hail">
+                <option value="Hurricane">
+                <option value="Thunderstorm">
+                <option value="Tornado">
+                </datalist><br>
+            <span>Storm Region</span><br> 
+                <select name="place">
+                <option value="select" disabled>Select Region...</option>
+                <option value="preston">Preston</option>
+                <option value="sodasprings">Soda Springs</option>
+                <option value="fishhaven">Fish Haven</option>
+                </select><br>
+            <span>Storm Severity (1 to 10)</span><br>
+                <input type="range" name="severity" class="slider" value="5" min="1" max="10" 
+                oninput="adjustRating(this.value)" onchange="adjustRating(this.value)"><br>
+            <span>User in Danger?</span><br>
+                <input type="radio" name="danger" value="yes">Yes<br>
+                <input type="radio" name="danger" value="no">No<br>
+                <input type="radio" name="danger" value="maybe">Maybe<br>
+            </fieldset>
+            
+            <fieldset>
+                <legend><span>Additional Information</span></legend>
+                <span>Comments</span><br>
+                    <textarea name="addlcomm" rows=15 cols=30>
+                    </textarea><br>
+            </fieldset> 
+            
+            <input type="submit" value="Submit">
+            
+    </form>
+</main>
+
+<footer>
+	<aside>
+        <div class="contact">
+            <p>Idaho Rain or Shine</p>
+            <p>30 N 1st E</p>
+            <p></p>
+            <p>Preston, ID 83263</p>
+            <p>☎ 999.999.9999</p>
+            <p>✉ idahorainorshine@iros.com</p>
+        </div>
+        <img src="images/prestonstatic.png" alt="Preston">
+    </aside>
+    <p class="copyright">&copy;2019 Idaho Rain or Shine  |  <a href="termsofuse"> Terms of Use </a>  |  <span id="currentdate"></span></p>	
+</footer>
+
+<script src="scripts/hamburger.js"></script>
+<script src="scripts/currentdate.js"></script>
+<script src="scripts/map.js"></script>
+<script src="scripts/toggleNavMenu.js"></script>
+<script src="scripts/windspeed.js"></script>
+<!--  <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>  -->
+
+</body>
+</html>
