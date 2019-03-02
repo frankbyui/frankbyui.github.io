@@ -1,5 +1,7 @@
 /* Stylesheet small.css */
 
+@import url('https://fonts.googleapis.com/css?family=Merriweather');
+
 h1 {
     font-size: 2rem;
     color: #313335;
