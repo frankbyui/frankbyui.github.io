@@ -123,6 +123,13 @@ form input #submit{
 form #ratingvalue {
     color: #555555;
     }    
+#submit {
+    background-color: #83b8e7;
+    color: #555555; 
+    }
+#submitbutton{
+    padding: 10px 0px;
+    }    
 main img { 
     width: 100%;
     height: auto;
