@@ -107,6 +107,15 @@ nav li a:hover:not(.active) {
     font-size: 2rem;
     color: #555555;
     }
+form legend {
+    padding: 10px 5px;
+    font-size: 1.8rem;
+    color: #555555;
+    }
+form input #submit{
+    background-color: #83b8e7;
+    color: #555555;
+    }
 main img { 
     width: 100%;
     height: auto;
