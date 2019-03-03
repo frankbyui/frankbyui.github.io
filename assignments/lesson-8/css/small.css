@@ -125,7 +125,11 @@ form #ratingvalue {
     }    
 #submit {
     background-color: #83b8e7;
-    color: #555555; 
+    color: #555555;
+    }
+#submit:hover {
+    box-shadow: 3px 3px 6px gray;
+    color: white;
     }
 #submitbutton{
     padding: 10px 0px;
