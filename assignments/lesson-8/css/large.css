@@ -51,13 +51,7 @@ nav li a:hover:not(.active) {
     background-color: #555555;
     color: #83b8e7;
     }
-#place {
-    display: block;
-    text-align: center;
-    margin: 20px;
-    font-size: 2rem;
-    color: #313335;
-    }  
+    
 main .gallery {
     display: grid;
     padding: 0 2%;

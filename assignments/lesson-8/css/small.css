@@ -118,6 +118,7 @@ form legend {
 form input #submit{
     background-color: #83b8e7;
     color: #555555;
+    padding: 20px 20px 20px 100px;
     }
 form #ratingvalue {
     color: #555555;
