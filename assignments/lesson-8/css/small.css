@@ -121,10 +121,15 @@ form legend {
     font-size: 1.8rem;
     color: #555555;
     }
+form select, input:nth-child(n+2) {
+    margin: 10px 0px;
+    }
 form input #submit{
     background-color: #83b8e7;
     color: #555555;
-    padding: 20px 20px 20px 100px;
+    }
+#submitbutton {
+    padding: 20px 0px;
     }
 form #ratingvalue {
     color: #555555;
