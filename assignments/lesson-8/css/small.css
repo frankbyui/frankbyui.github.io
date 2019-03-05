@@ -111,6 +111,10 @@ nav li a:hover:not(.active) {
 form {
     font-family: 'Merriweather', serif;
     width: 400px;
+    margin: auto;
+    }
+fieldset {
+    width: 40vw;
     }
 form legend {
     padding: 10px 5px;
