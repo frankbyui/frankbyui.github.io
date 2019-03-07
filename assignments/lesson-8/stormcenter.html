@@ -37,12 +37,12 @@
 <main>
     <div id="place">Storm Center</div>
     
-    <form action="thanks.html" method="get" enctype="form-data" name="Storm Form" id="userform">
+    <form action="thanks.html" method="get" enctype="multipart/form-data" name="Storm Form" id="userform">
 
         <fieldset>
             <legend><span>Contact Information</span></legend>
             <span>Full Name (required)</span><br>
-                <input type="text" name="fullname" patten=[a-zA-Z -._]{5,99] required><br>
+                <input type="text" name="fullname" pattern="[a-zA-Z -._]{5,99}" required><br>
             <span>Email:</span><br>
                 <input type="email" name="email" placeholder="example@youremail.com"><br>
             <span>Phone Number</span><br>
