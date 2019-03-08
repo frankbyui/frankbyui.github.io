@@ -18,6 +18,7 @@ h1, h2 {
 h1 {
   font-size: 4rem;
   text-align: center;
+  color: red;
 }
 
 header p {
@@ -39,6 +40,7 @@ section p {
 
 section ul {
   margin-top: 0;
+  font-style: italic;
 }
 
 h2 {
