@@ -38,6 +38,11 @@ section p {
   margin: 5px 0;
 }
 
+section p:nth-child(3) {
+    font-weight: bold;
+    font-style: italic;
+}
+
 section ul {
   margin-top: 0;
   font-style: italic;
