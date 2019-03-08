@@ -11,14 +11,14 @@ body {
 
 h1, h2 {
   font-family: 'Faster One', cursive;
+  color: rgb(36, 39, 41);
 }
 
 /* header styles */
 
 h1 {
-  font-size: 5rem;
+  font-size: 4.5rem;
   text-align: center;
-  color: slategrey;
 }
 
 header p {
@@ -35,10 +35,6 @@ section article {
 
 section p {
   margin: 5px 0;
-}
-
-section p:nth-child(1) {
-    color: slategrey;
 }
 
 section p:nth-child(4) {
