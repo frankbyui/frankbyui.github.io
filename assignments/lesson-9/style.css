@@ -7,7 +7,7 @@ html {
 body {
   width: 800px;
   margin: 0 auto;
-  background-image: linear-gradient(red, yellow, blue);
+  background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo);
 }
 
 h1, h2 {
