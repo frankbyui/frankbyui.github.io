@@ -12,13 +12,13 @@ body {
 h1, h2 {
   font-family: 'Faster One', cursive;
   color: rgb(36, 39, 41);
+  text-align: center;
 }
 
 /* header styles */
 
 h1 {
   font-size: 4.5rem;
-  text-align: center;
 }
 
 header p {
