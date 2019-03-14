@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta name="description" content="Preston Weather">
+	<!-- style sheets -->
+	<link href="css/normalize.css" rel="stylesheet">
+    <link href="css/small.css" rel="stylesheet">
+    <link href="css/medium.css" rel="stylesheet">
+    <link href="css/large.css" rel="stylesheet">
+    <title>Idaho Rain or Shine | Gallery</title>
+</head>
+
+<body>
+	<header>
+        <img src="images/logo.png" alt="IRoS Logo">
+        <div class="top">
+		<div class="brand">Idaho Rain or Shine</div>
+        <div class="motto">"Weather Your Way, Right Away"</div>
+        </div>
+	</header>	
+
+<nav>
+    <ul class="hide">
+		<li><a href="#" id="menuHam" onclick="toggleNavMenu()">Menu &#9776;</a></li>
+		<li><a href="home.hmtl">Home</a></li>
+		<li><a href="preston.html">Preston</a></li> 
+		<li><a href="sodasprings.html">Soda Springs</a></li>
+		<li><a href="fishhaven.html">Fish Haven</a></li>
+		<li><a href="stormcenter.html">Storm Center</a></li>
+		<li><a class="active" href="gallery.html">Gallery</a></li>
+	</ul>
+</nav>
+
+<main>
+    <div id="place">Weather Gallery</div>
+    <div class="gallery">
+        <figure>
+        <img src="images/gallery/lighthouse.jpg" alt="Lighthouse">
+        <figcaption>Frozen Lighthouse</figcaption>
+        </figure>
+        <figure>
+        <img src="images/gallery/lightning.jpg" alt="Storm at Sea">
+        <figcaption>Night Lights</figcaption>
+        </figure>
+        <figure>
+        <img src="images/gallery/sunset.jpg" alt="Sunset on a Beach">
+        <figcaption>Golden Sunset</figcaption>
+        </figure>
+        <figure>
+        <img src="images/gallery/greatsmokey.jpg" alt="Mountains in Fog">
+        <figcaption>Fall Treat</figcaption>
+        </figure>
+        <figure>
+        <img src="images/gallery/yellowst.jpg" alt="Waterfall">
+        <figcaption>Rugged Beauty</figcaption>
+        </figure>
+        <figure>
+        <img src="images/gallery/forest.jpg" alt="Glade in Forest">
+        <figcaption>A Hobbit Path</figcaption>
+        </figure>
+        <figure>
+        <img src="images/gallery/stream.jpg" alt="Stream in Forest">
+        <figcaption>Hidden Spring</figcaption>
+        </figure>
+    </div>
+</main>
+
+<footer>
+        <aside>
+            <div class=contact>
+                <p>Idaho Rain or Shine</p>
+                <p>30 N 1st E</p>
+                <p></p>
+                <p>Preston, ID 83263</p>
+                <p>☎ 999.999.9999</p>
+                <p>✉ idahorainorshine@iros.com</p>
+            </div>
+            <img src="images/prestonstatic.png" alt="Preston">
+        </aside>
+        <p class="copyright">&copy;2019 Idaho Rain or Shine  |  <a href="termsofuse"> Terms of Use </a>  |  <span id="currentdate"></span></p>	
+    </footer>
+    
+    <script src="scripts/hamburger.js"></script>
+    <script src="scripts/currentdate.js"></script>
+    <script src="scripts/map.js"></script>
+    <script src="scripts/toggleNavMenu.js"></script>
+    <!--  <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>  -->
+    
+    </body>
+    </html>
+    
