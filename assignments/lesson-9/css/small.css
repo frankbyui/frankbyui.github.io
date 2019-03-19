@@ -199,8 +199,13 @@ article.homeTowns{
     margin-top: 30px;
     padding: 20px 30px;
     }
-
-
+.homeTowns div{
+    background-color: white;
+    box-shadow: 0 4px 8px 0 #555555, 0 6px 20px 0 #555555;
+    grid-gap: 10px;
+    max-width: 500px;
+    margin: auto;
+}
 footer {
     font-family: 'Merriweather', serif;
     padding-top: 30px;
