@@ -187,8 +187,12 @@ main .gallery figure figcaption {
     display: none;
     }
 #homeImage{
-    flex: 33%;
+    margin: 20px;
 }
+#homeTowns{
+    display: flexbox;
+    flex: 33%;
+    }
 footer {
     font-family: 'Merriweather', serif;
     padding-top: 30px;
