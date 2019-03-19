@@ -38,7 +38,7 @@ function populateData(jsonObj) {
 
     var city = jsonObj;
 
-    var myArticle = document.createElement("div");
+    var myArticle = document.createElement("article");
     var myH2 = document.createElement("h2");
     var myH3 = document.createElement("h3");
     var myPara1 = document.createElement("p");
@@ -77,7 +77,7 @@ function populateData(jsonObj) {
     myArticle.appendChild(myImage);
     myArticle.className = "homeTowns";
 
-    article.appendChild(myArticle);
+    section.appendChild(myArticle);
 
 }
 
