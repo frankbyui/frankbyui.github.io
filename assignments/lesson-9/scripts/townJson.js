@@ -8,9 +8,9 @@ request.open("GET", requestURL);
 request.responseType = "json";
 request.send();
 
-request.onload = function () {
-    var townData = request.response;
-    showData(townData);
+request.onload = function() {
+    var townInfo = request.response;
+    showData(townInfo);
 } 
 
 function showData(jsonObj) {
@@ -34,7 +34,7 @@ function showData(jsonObj) {
 
 }
 
-function populateCityData(jsonObj) {
+function populateData(jsonObj) {
 
     var city = jsonObj;
 
@@ -77,7 +77,7 @@ function populateCityData(jsonObj) {
     myArticle.appendChild(myImage);
     myArticle.className = "homeTowns";
 
-    section.appendChild(myArticle);
+    article.appendChild(myArticle);
 
 }
 
