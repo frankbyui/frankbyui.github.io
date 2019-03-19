@@ -1,6 +1,6 @@
 // script for getting json data //
 
-var townIndex, townData;
+var cityIndex, cities;
 var section =  document.querySelector("section");
 var requestURL = "https://byui-cit230.github.io/weather/data/towndata.json";
 var request = new XMLHttpRequest();
@@ -9,32 +9,32 @@ request.responseType = "json";
 request.send();
 
 request.onload = function() {
-    var townInfo = request.response;
-    showData(townInfo);
+    var cityInfo = request.response;
+    showCityData(cityInfo);
 } 
 
-function showData(jsonObj) {
+function showCityData(jsonObj) {
     
-    townData = jsonObj["towns"];
+    cities = jsonObj["towns"];
 
-    for (townIndex = 0; townIndex < townData.length; townIndex++){
-        if (townData[townIndex].name == "Preston")
-        populateCityData(townData[townIndex]);
+    for (cityIndex = 0; cityIndex < cities.length; cityIndex++){
+        if (cities[cityIndex].name == "Preston")
+        populateCityData(cities[cityIndex]);
     }
 
-    for (townIndex = 0; townIndex < townData.length; townIndex++){
-        if (townData[townIndex].name == "Soda Springs")
-        populateCityData(townData[townIndex]);
+    for (cityIndex = 0; cityIndex < cities.length; cityIndex++){
+        if (cities[cityIndex].name == "Soda Springs")
+        populateCityData(cities[cityIndex]);
     }
 
-    for (townIndex = 0; townIndex < townData.length; townIndex++){
-        if (townData[townIndex].name == "Fish Haven")
-        populateCityData(townData[townIndex]);
+    for (cityIndex = 0; cityIndex < cities.length; cityIndex++){
+        if (cities[cityIndex].name == "Fish Haven")
+        populateCityData(cities[cityIndex]);
     }
 
 }
 
-function populateData(jsonObj) {
+function populateCityData(jsonObj) {
 
     var city = jsonObj;
 
