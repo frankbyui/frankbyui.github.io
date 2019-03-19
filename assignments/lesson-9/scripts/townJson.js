@@ -55,14 +55,17 @@ function populateCityData(jsonObj) {
     switch (myH2.textContent) {
         case "Preston":
             myImage.src = "images/homePreston.jpg";
+            myImage.id = "preston", alt = "Preston";
             break;
 
         case "Soda Springs":
             myImage.src = "images/homeSoda.jpg";
+            myImage.id = "sodaSprings", alt = "Soda Sorings";
             break;
 
         case "Fish Haven":
             myImage.src = "images/homeFish.jpg";
+            myImage.id = "fishHaven", alt = "Fish Haven";
             break;
     }
 
