@@ -189,12 +189,13 @@ main .gallery figure figcaption {
 #homeImage{
     margin: 20px 0px;
 }
-#homeTowns{
+.homeTowns{
     border: 1px solid #313335;
     width: 100%;
     display: flex;
     justify-content: center;
     flex: 33%;
+    box-shadow: 2px #555555;
     }
 footer {
     font-family: 'Merriweather', serif;
