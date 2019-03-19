@@ -38,7 +38,7 @@ function populateCityData(jsonObj) {
 
     var city = jsonObj;
 
-    var myArticle = document.createElement("article");
+    var myArticle = document.createElement("div");
     var myH2 = document.createElement("h2");
     var myH3 = document.createElement("h3");
     var myPara1 = document.createElement("p");
