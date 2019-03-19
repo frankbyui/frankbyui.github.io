@@ -193,7 +193,7 @@ main .gallery figure figcaption {
     border: 1px solid #313335;
     width: 33%;
     display: flex;
-    justify-content: center;
+    align-content: center;
     box-shadow: 2px #555555;
     }
 footer {
