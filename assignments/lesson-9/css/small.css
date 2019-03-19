@@ -189,10 +189,10 @@ main .gallery figure figcaption {
 #homeImage{
     margin: 20px 0px;
 }
-.homeTowns{
+#homeTowns{
+    display: flex;
     border: 1px solid #313335;
     width: 33%;
-    display: flex;
     align-content: center;
     box-shadow: 2px #555555;
     }
