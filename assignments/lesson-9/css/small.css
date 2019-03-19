@@ -189,7 +189,7 @@ main .gallery figure figcaption {
 #homeImage{
     margin: 20px 0px;
 }
-article #homeTowns{
+article .homeTowns{
     border: none;
     display: grid;
     text-align: center;
