@@ -187,7 +187,7 @@ main .gallery figure figcaption {
     display: none;
     }
 #homeImage{
-    flex;
+    flex: 33%;
 }
 footer {
     font-family: 'Merriweather', serif;
