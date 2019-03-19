@@ -191,10 +191,9 @@ main .gallery figure figcaption {
 }
 .homeTowns{
     border: 1px solid #313335;
-    width: 100%;
+    width: 33%;
     display: flex;
     justify-content: center;
-    flex: 33%;
     box-shadow: 2px #555555;
     }
 footer {
