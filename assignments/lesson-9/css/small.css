@@ -186,6 +186,9 @@ main .gallery figure figcaption {
 #forecast {
     display: none;
     }
+#homeImage{
+    flex;
+}
 footer {
     font-family: 'Merriweather', serif;
     padding-top: 30px;
