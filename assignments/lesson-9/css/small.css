@@ -200,7 +200,7 @@ main .gallery figure figcaption {
 #homeTowns article {
     border: 1px solid #313335;
     text-align: center;
-    box-shadow: 2px 2px #555555;
+    box-shadow: 3px 3px 10px #555555;
     }
 #homeTowns article h2{
     text-align: center;
