@@ -192,7 +192,6 @@ main .gallery figure figcaption {
 article #homeTowns {
     border: none;
     display: grid;
-    text-align: center;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 5%;
     max-width: 1000px;
