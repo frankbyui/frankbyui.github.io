@@ -75,7 +75,7 @@ function populateCityData(jsonObj) {
     myArticle.appendChild(myPara2);
     myArticle.appendChild(myPara3);
     myArticle.appendChild(myImage);
-    myArticle.className = "homeTowns";
+    myArticle.class= "homeTowns";
 
     section.appendChild(myArticle);
 
