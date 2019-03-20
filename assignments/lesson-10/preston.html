@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta name="description" content="Preston Weather">
+	<!-- style sheets -->
+	<link href="css/normalize.css" rel="stylesheet">
+    <link href="css/small.css" rel="stylesheet">
+    <link href="css/medium.css" rel="stylesheet">
+    <link href="css/large.css" rel="stylesheet">
+    <title>Idaho Rain or Shine | Preston, Idaho</title>
+</head>
+
+<body>
+	<header>
+        <img src="images/logo.png" alt="IRoS Logo">
+        <div class="top">
+		<div class="brand">Idaho Rain or Shine</div>
+        <div class="motto">"Weather Your Way, Right Away"</div>
+        </div>
+	</header>	
+
+<nav>
+    <ul class="hide">
+		<li><a href="#" id="menuHam" onclick="toggleNavMenu()">&#9776;</a></li>
+		<li><a href="index.html">Home</a></li>
+		<li><a class="active" href="preston.html">Preston</a></li> 
+		<li><a href="sodasprings.html">Soda Springs</a></li>
+		<li><a href="fishhaven.html">Fish Haven</a></li>
+		<li><a href="stormcenter.html">Storm Center</a></li>
+		<li><a href="gallery.html">Gallery</a></li>
+	</ul>
+</nav>
+
+  
+<main>
+	<div id="place">Preston, Idaho</div>
+	<section>
+		<picture id="hero">
+        <source srcset="images/herosmall.jpeg" media="(max-width: 60em)">  
+		<source srcset="images/herolarge.jpeg" media="(min-width: 60em)">
+		<img src="images/herolarge.jpeg" alt="Sunny Day">
+		</picture>
+		<div id="weathsumm">
+			<h3>Weather Summary</h3>
+			<p>Temperature: <span id="currtemp">35</span>&deg;F<br>
+			   Humidity: <span id="humidity">30% </span><br>
+			   Wind Speed: <span id="currwind">20</span>mph<br>
+			   Wind Direction: <span id="winddir">NNW</span><br>
+			   Wind Chill: <span id="windchill"></span>&deg;F<br>
+			</p>
+		</div>   
+	</section>
+	
+	<section id="forecast">
+		<span id="forecasthead">5 Day Forecast</span>
+		<table> 
+			<thead>
+				<tr>
+					<th><span id="dayone">Monday</span></th>
+					<th><span id="daytwo">Tuesday</span></th>
+					<th><span id="daythree">Wednesday</span></th>
+					<th><span id="dayfour">Thursday</span></th>
+					<th><span id="dayfive">Friday</span></th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td><img src="images/rainsnow.png" id="weathericonone" alt="Weather Icon"><br>High <span id="temperature1">37</span>&deg;F</td>
+					<td><img src="images/overcast.png" id="weathericontwo" alt="Weather Icon"><br>High <span id="temperature2">35</span>&deg;F</td>
+					<td><img src="images/sunny.png" id="weathericonthree" alt="Weather Icon"><br>High <span id="temperature3">33</span>&deg;F</td>
+					<td><img src="images/pcloudy.png" id="weathericonfour" alt="Weather Icon"><br>High <span id="temperature4">29</span>&deg;F</td>
+					<td><img src="images/snow.png" id="weathericonfive" alt="Weather Icon"><br>High <span id="temperature5">34</span>&deg;F</td>
+				</tr>
+			</tbody>
+		</table>
+	</section>		
+	
+	<article>
+		<h2>Article Title</h2>
+		<img src="images/placeholder.jpg" alt="Fall Leaves">
+		<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+        </p>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+        </p>
+    </article>
+</main>  
+
+<footer>
+	<aside>
+        <div class=contact>
+            <p>Idaho Rain or Shine</p>
+            <p>30 N 1st E</p>
+            <p></p>
+            <p>Preston, ID 83263</p>
+            <p>☎ 999.999.9999</p>
+            <p>✉ idahorainorshine@iros.com</p>
+        </div>
+        <img src="images/prestonstatic.png" alt="Preston">
+    </aside>
+    <p class="copyright">&copy;2019 Idaho Rain or Shine  |  <a href="termsofuse"> Terms of Use </a>  |  <span id="currentdate"></span></p>	
+</footer>
+
+<script src="scripts/hamburger.js"></script>
+<script src="scripts/currentdate.js"></script>
+<script src="scripts/map.js"></script>
+<script src="scripts/toggleNavMenu.js"></script>
+<script src="scripts/windspeed.js"></script>
+<!--  <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>  -->
+
+</body>
+</html>
