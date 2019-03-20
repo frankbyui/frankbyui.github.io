@@ -189,9 +189,10 @@ main .gallery figure figcaption {
 #homeImage {
     margin: 20px 0px;
     }
-#homeTowns {
-    border: none;
+.homeTowns {
+    border: 1px solid #313335;
     display: grid;
+    text-align: center;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 5%;
     max-width: 1000px;
