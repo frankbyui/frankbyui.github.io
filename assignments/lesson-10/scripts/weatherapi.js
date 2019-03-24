@@ -6,7 +6,7 @@ var apiURLstring = "https://api.openweathermap.org/data/2.5/weather?id=5604473&a
 weatherRequest.open("GET", apiURLstring);
 weatherRequest.send();
 weatherRequest.onload =  function () {
-    var weatherInfo = JSON.parse(weatherRequest.responseText);
-    console.log(weatherInfo);
-    document.getElementById("current-temp").innerHTML = weatherInfo.main.temp;
+    var weatherData = JSON.parse(weatherRequest.responseText);
+    console.log(weatherData);
+    document.getElementById("current-temp").innerHTML = weatherData.main.temp;
 }
