@@ -89,12 +89,3 @@ document.getElementById("hTemp4").innerHTML = listTemp[3];
 document.getElementById("hTemp5").innerHTML = listTemp[4];
 
 }
-
-
-
-
-
-
-
-
-}
