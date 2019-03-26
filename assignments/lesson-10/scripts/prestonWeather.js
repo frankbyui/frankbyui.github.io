@@ -12,14 +12,13 @@ weatherRequest.onload =  function () {
     console.log(weatherData);
 
     document.getElementById("current-conditions").innerHTML = weatherData.weather[0].main;
-    document.getElementById("current-temp").innerHTML = weatherData.main.temp;
+    document.getElementById("current-temp").innerHTML = Math.round(weatherData.main.temp);
     document.getElementById("humidity").innerHTML = weatherData.main.humidity;
     document.getElementById("wind-speed").innerHTML = weatherData.wind.speed;
     
     var windChill = 35.74 + 0.6215 * weatherData.main.temp - 35.75 * Math.pow(weatherData.wind.speed, 0.16) + 0.4275 
     * weatherData.main.temp * Math.pow(weatherData.wind.speed, 0.16);
-    var windRounded = Math.round(windChill);
-    document.getElementById("wind-chill").innerHTML = windRounded;
+    document.getElementById("wind-chill").innerHTML = Math.round(windChill);
 
 }
 
