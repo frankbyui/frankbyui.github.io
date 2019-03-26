@@ -1,7 +1,7 @@
 /* Preston Events Page */
 
 var town, townIndex;
-var section = document.querySelector("events");
+var section = document.querySelector("article");
 var requestURL = "https://byui-cit230.github.io/weather/data/towndata.json";
 var eventsRequest = new XMLHttpRequest();
 eventsRequest.open("GET", requestURL);
@@ -45,14 +45,18 @@ function populateCityData(jsonObj) {
         eventsList += "<li>" + events[i] + "</li><br>"; 
     }
 
-    var myUList = document.createElement("<ul>");
-    var myList = document.createElement(eventsList);
-    var myUListClose = document.createElement("</ul>");    
+    var myArticle = document.createElement("article");
+    var myH2 = document.createElement("h2");
+    var myList = document.createElement("p"); 
 
-    myUList.appendChild(myList);
-    myUList.appendChild(myUListClose);
-    myUList.class = "events";
+    myH2.textContent = city.name + " Events";
+    myList.textContent = eventsList;
 
-    section.appendChild(myUlist);
+
+    myArticle.appendChild(myH2);
+    myArticle.appendChild(myList);
+    myArticle.class = "events";
+
+    section.appendChild(myArticle);
 
 }
