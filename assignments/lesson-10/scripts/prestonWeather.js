@@ -4,7 +4,7 @@
 var weatherRequest = new XMLHttpRequest();
 var summAPILink = "https://api.openweathermap.org/data/2.5/weather?id=5604473&appid=a814507b3b5b09de8c85f93d56908c48&units=imperial";
 
-weatherRequest.open("GET", summAPILink, async=true);
+weatherRequest.open("GET", summAPILink, true);
 weatherRequest.send();
 weatherRequest.onload =  function () {
     
@@ -28,24 +28,24 @@ weatherRequest.onload =  function () {
 var weatherForecast = new XMLHttpRequest();
 var foreAPILink = "api.openweathermap.org/data/2.5/forecast?id=5604473&appid=a814507b3b5b09de8c85f93d56908c48&units=imperial";
 
-weatherRequest.open("GET", foreAPILink, async=true);
-weatherRequest.send();
-weatherRequest.onload =  function () {
+weatherForecast.open("GET", foreAPILink, true);
+weatherForecast.send();
+weatherForecast.onload =  function () {
 
-    var weatherData = JSON.parse(weatherRequest.responseText);
+    var forecastData = JSON.parse(weatherRequest.responseText);
     console.log(forecastData);
 
     var listDate = [];
     var listTemp = [];
     var listIconCode = [];
 
-    for (i = 0; i < weatherData.list.length; i++) {
-        var time = weatherData.list[i].dt_txt;
+    for (i = 0; i < forecastData.list.length; i++) {
+        var time = forecastData.list[i].dt_txt;
 
         if (time.includes("18:00:00")) {
 
             /* date */
-            var date = new Date(weatherData.list[i].dt * 1000);
+            var date = new Date(forecastData.list[i].dt * 1000);
             var month = ["January", "February", "March", "April", "May", "June",
                 "July", "August", "September", "October", "November", "December"];
             var weekday = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", 
@@ -54,12 +54,12 @@ weatherRequest.onload =  function () {
             listDate.push(findDate);
 
             /* temp */
-            var temp = weatherData.list[i].main.temp_max;
+            var temp = forecastData.list[i].main.temp_max;
             var tempRounded = Math.round(temp);
             listTemp.push(tempRounded);
 
             /* icon */
-            var iconCode = weatherData.list[i].weather["0"].icon;
+            var iconCode = forecastData.list[i].weather["0"].icon;
             var icon_path = "https://openweathermap.org/img/w/" + iconCode + ".png";
             listIconCode.push(icon_path);
         }
