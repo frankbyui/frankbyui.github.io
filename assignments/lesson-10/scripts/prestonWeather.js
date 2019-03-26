@@ -6,7 +6,7 @@ var summAPILink = "https://api.openweathermap.org/data/2.5/weather?id=5604473&ap
 
 weatherRequest.open("GET", summAPILink, true);
 weatherRequest.send();
-weatherRequest.onload =  function () {
+weatherRequest.onload = function () {
     
     var weatherData = JSON.parse(weatherRequest.responseText);
     console.log(weatherData);
