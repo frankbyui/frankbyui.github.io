@@ -1,6 +1,5 @@
 /* Preston weather API ID=5604473 @prestonWeather.js */
 
-
 /* Weather Summary */
 var weatherRequest = new XMLHttpRequest();
 var summAPILink = "https://api.openweathermap.org/data/2.5/weather?id=5604473&appid=a814507b3b5b09de8c85f93d56908c48&units=imperial";
