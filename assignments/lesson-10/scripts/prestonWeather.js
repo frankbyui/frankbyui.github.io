@@ -26,7 +26,7 @@ weatherRequest.onload =  function () {
 
 /* Weather Forecast */
 var weatherForecast = new XMLHttpRequest();
-var foreAPILink = "http://api.openweathermap.org/data/2.5/forecast?id=5604473&appid=a814507b3b5b09de8c85f93d56908c48&units=imperial";
+var foreAPILink = "https://api.openweathermap.org/data/2.5/forecast?id=5604473&appid=a814507b3b5b09de8c85f93d56908c48&units=imperial";
 
 weatherForecast.open("GET", foreAPILink, true);
 weatherForecast.send();
