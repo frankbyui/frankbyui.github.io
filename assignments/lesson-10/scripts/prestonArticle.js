@@ -42,7 +42,7 @@ function populateCityData(jsonObj) {
     var eventsList, i;
 
     for (i = 0; i < events.length; i++) {
-        eventsList += "<li>" + events[i] + "</li><br>"; 
+        eventsList += events[i]; 
     }
 
     var myArticle = document.createElement("article");
