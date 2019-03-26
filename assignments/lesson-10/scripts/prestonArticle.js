@@ -1,5 +1,8 @@
 /* Preston Events Page */
 
+var town, townIndex;
+var section = document.querySelector("events");
+
 var eventsRequest = new XMLHttpRequest();
 eventsRequest.open("GET", "https://byui-cit230.github.io/weather/data/towndata.json");
 eventsRequest.responseType = "json";
@@ -12,22 +15,22 @@ eventsRequest.onload = function () {
 
 function showCityData(jsonObj) {
     
-    var towns, townIndex;
-    towns = jsonObj["towns"];
+    var townNames = jsonObj["towns"];
+    var i;   
 
-    for (townIndex = 0; townIndex < towns.length; townIndex++){
-        if (towns[townIndex].name == "Preston")
-        populateCityData(towns[townIndex]);
+    for (i = 0; i < townNames.length; i++){
+        if (townNames[i].name == "Preston")
+        populateCityData(townNames[i]);
     }
 
-    /* for (cityIndex = 0; cityIndex < cities.length; cityIndex++){
-        if (cities[cityIndex].name == "Soda Springs")
-        populateCityData(cities[cityIndex]);
+    /* for (i= 0; i < townNames.length; i++){
+        if (townNames[i].name == "Soda Springs")
+        populateCityData(townNames[i]);
     }
 
-    for (cityIndex = 0; cityIndex < cities.length; cityIndex++){
-        if (cities[cityIndex].name == "Fish Haven")
-        populateCityData(cities[cityIndex]);
+    for (i = 0; i < cities.length; i++){
+        if (townNames[i].name == "Fish Haven")
+        populateCityData(townNames[i]);
     }
     */
 }
@@ -35,17 +38,16 @@ function showCityData(jsonObj) {
 function populateCityData(jsonObj) {
 
     var town = jsonObj;
-    var events;
+    var events = town.events;
+    var eventsList, i;
 
-    var myUList = document.createElement("<ul>");
-
-    for (i=0; i < events.length; i++) {
-        events += "<li>" + events[i] + "</li>"; 
+    for (i = 0; i < events.length; i++) {
+        eventsList += "<li>" + events[i] + "</li><br>"; 
     }
 
-    var myList = document.createElement(events);
-
-    var myUListClose = document.createElement("</ul>");
+    var myUList = document.createElement("<ul>");
+    var myList = document.createElement(eventsList);
+    var myUListClose = document.createElement("</ul>");    
 
     myUList.appendChild(myList);
     myUList.appendChild(myUListClose);

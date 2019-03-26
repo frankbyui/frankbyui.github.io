@@ -1,7 +1,7 @@
 // script for getting json data //
 
 var cityIndex, cities;
-var section =  document.querySelector("article");
+var section = document.querySelector("article");
 var requestURL = "https://byui-cit230.github.io/weather/data/towndata.json";
 var request = new XMLHttpRequest();
 request.open("GET", requestURL);
