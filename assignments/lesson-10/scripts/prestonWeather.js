@@ -32,7 +32,7 @@ weatherForecast.open("GET", foreAPILink, true);
 weatherForecast.send();
 weatherForecast.onload =  function () {
 
-    var forecastData = JSON.parse(weatherRequest.responseText);
+    var forecastData = JSON.parse(weatherForecast.responseText);
     console.log(forecastData);
 
     var listDate = [];
