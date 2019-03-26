@@ -11,7 +11,7 @@ weatherRequest.onload =  function () {
     var weatherData = JSON.parse(weatherRequest.responseText);
     console.log(weatherData);
 
-    document.getElementById("current-conditions").innerHTML = weatherData.weather[0].description;
+    document.getElementById("current-conditions").innerHTML = weatherData.weather[0].main;
     document.getElementById("current-temp").innerHTML = weatherData.main.temp;
     document.getElementById("humidity").innerHTML = weatherData.main.humidity;
     document.getElementById("wind-speed").innerHTML = weatherData.wind.speed;
