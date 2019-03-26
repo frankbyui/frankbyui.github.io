@@ -2,9 +2,9 @@
 
 var town, townIndex;
 var section = document.querySelector("events");
-
+var requestURL = "https://byui-cit230.github.io/weather/data/towndata.json";
 var eventsRequest = new XMLHttpRequest();
-eventsRequest.open("GET", "https://byui-cit230.github.io/weather/data/towndata.json");
+eventsRequest.open("GET", requestURL);
 eventsRequest.responseType = "json";
 eventsRequest.send();
 
