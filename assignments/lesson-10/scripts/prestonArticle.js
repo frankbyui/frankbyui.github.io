@@ -49,7 +49,7 @@ function populateCityData(jsonObj) {
     var myH2 = document.createElement("h2");
     var myList = document.createElement("p"); 
 
-    myH2.textContent = city.name + " Events";
+    myH2.textContent = town.name + " Events";
     myList.textContent = eventsList;
 
 
