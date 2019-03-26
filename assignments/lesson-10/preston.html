@@ -45,11 +45,11 @@
 		</picture>
 		<div id="weathsumm">
 			<h3>Weather Summary</h3>
-			<p>Temperature: <span id="currtemp">35</span>&deg;F<br>
-			   Humidity: <span id="humidity">30% </span><br>
-			   Wind Speed: <span id="currwind">20</span>mph<br>
-			   Wind Direction: <span id="winddir">NNW</span><br>
-			   Wind Chill: <span id="windchill"></span>&deg;F<br>
+			<p>Currently: <span id="current-conditions"></span>
+			   Temperature: <span id="current-temp"></span>&deg;F<br>
+			   Humidity: <span id="humidity"></span><br>
+			   Wind:<span id="wind-dir"></span>at<span id="wind-speed"></span>mph<br>
+			   Wind Chill: <span id="wind-chill"></span>&deg;F<br>
 			</p>
 		</div>   
 	</section>
@@ -59,20 +59,20 @@
 		<table> 
 			<thead>
 				<tr>
-					<th><span id="dayone">Monday</span></th>
-					<th><span id="daytwo">Tuesday</span></th>
-					<th><span id="daythree">Wednesday</span></th>
-					<th><span id="dayfour">Thursday</span></th>
-					<th><span id="dayfive">Friday</span></th>
+					<th><span id="day1">Monday</span></th>
+					<th><span id="day2">Tuesday</span></th>
+					<th><span id="day3">Wednesday</span></th>
+					<th><span id="day4">Thursday</span></th>
+					<th><span id="day5">Friday</span></th>
 				</tr>
 			</thead>
 			<tbody>
 				<tr>
-					<td><img src="images/rainsnow.png" id="weathericonone" alt="Weather Icon"><br>High <span id="temperature1">37</span>&deg;F</td>
-					<td><img src="images/overcast.png" id="weathericontwo" alt="Weather Icon"><br>High <span id="temperature2">35</span>&deg;F</td>
-					<td><img src="images/sunny.png" id="weathericonthree" alt="Weather Icon"><br>High <span id="temperature3">33</span>&deg;F</td>
-					<td><img src="images/pcloudy.png" id="weathericonfour" alt="Weather Icon"><br>High <span id="temperature4">29</span>&deg;F</td>
-					<td><img src="images/snow.png" id="weathericonfive" alt="Weather Icon"><br>High <span id="temperature5">34</span>&deg;F</td>
+					<td><img id="wIcon1" alt="Weather Icon"><br>High <span id="hTemp1"></span>&deg;F</td>
+					<td><img id="wIcon2" alt="Weather Icon"><br>High <span id="hTemp2"></span>&deg;F</td>
+					<td><img id="wIcon3" alt="Weather Icon"><br>High <span id="hTemp3"></span>&deg;F</td>
+					<td><img id="wIcon4" alt="Weather Icon"><br>High <span id="hTemp4"></span>&deg;F</td>
+					<td><img id="wIcon5" alt="Weather Icon"><br>High <span id="hTemp5"></span>&deg;F</td>
 				</tr>
 			</tbody>
 		</table>
