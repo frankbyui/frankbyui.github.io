@@ -60,6 +60,9 @@ main .gallery {
 main .gallery figure:hover {
     box-shadow: 3px 3px 6px darkgrey;
     }
+#forecasthead {
+    padding: 10px;
+    }
 #forecast table{
     border-collapse: collapse;
     margin-left: auto;
@@ -68,8 +71,8 @@ main .gallery figure:hover {
     box-shadow: 8px 8px 5px #5e6266;
     }
 #forecast th, td {
-    padding: 10px;
-    border: 1px solid #313335;
+    padding: 20px;
+    border: 2px solid #313335;
     background-color: #83b8e7;
     }
 #summary {
