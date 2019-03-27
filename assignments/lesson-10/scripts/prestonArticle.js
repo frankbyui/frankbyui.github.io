@@ -39,23 +39,19 @@ function populateCityData(jsonObj) {
 
     var town = jsonObj;
     var events = town.events;
-    var eventsList, i;
-
-    for (i = 0; i < events.length; i++) {
-        eventsList += events[i];
-    }
+    var i;
 
     var myArticle = document.createElement("article");
-    var myH2 = document.createElement("h2");
-    var myList = document.createElement("p"); 
-
-    myH2.textContent = town.name + " Events";
-    myList.textContent = eventsList;
-
-
-    myArticle.appendChild(myH2);
-    myArticle.appendChild(myList);
     myArticle.class = "events";
+    var myH2 = document.createElement("h2");
+    myH2.textContent = town.name + " Events";
+    myArticle.appendChild(myH2);
+
+    for (i = 0; i < events.length; i++) {
+        var myList = document.createElement("p");
+        myList.textContent = events[i];
+        myArticle.appendChild(myList);
+    }
 
     section.appendChild(myArticle);
 
