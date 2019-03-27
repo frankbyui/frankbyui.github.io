@@ -107,22 +107,6 @@ main .gallery figure:hover {
     text-align: center;
     font-size: 2rem;
     }
-#townEvent {
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    padding: 10px;
-    grid-column-gap: 10%;
-    }
-#townEvent img {
-    margin: 20px auto;
-    grid-column-start: 3;
-    grid-row-start: 1;
-    }
-#townEvent Article {
-    grid-column-start: 2;
-    grid-row-start: 1;
-    padding: 10px;
-    }
 #homeTowns {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
