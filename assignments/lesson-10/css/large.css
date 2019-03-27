@@ -109,13 +109,13 @@ main .gallery figure:hover {
     }
 
 #townEvent img {
-    float: center;
-    width: 80%;
+    display: inline-block;
+    width: 60%;
     height: auto;
-    margin: 20px;
+    margin: 20px auto;
     }
 #townEvent Article {
-    float: center;
+    display: inline-block;
     width: 30%;
     height: auto; 
     }
