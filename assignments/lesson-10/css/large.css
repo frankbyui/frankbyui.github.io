@@ -107,11 +107,17 @@ main .gallery figure:hover {
     text-align: center;
     font-size: 2rem;
     }
-article img {
-    float: right;
-    width: 350px;
+
+#townEvent img {
+    float: center;
+    width: 80%;
     height: auto;
-    margin: 10px;
+    margin: 20px;
+    }
+#townEvent Article {
+    float: center;
+    width: 30%;
+    height: auto; 
     }
 #homeTowns {
     display: grid;
