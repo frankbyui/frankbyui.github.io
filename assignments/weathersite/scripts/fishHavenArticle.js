@@ -30,7 +30,7 @@ function showCityData(jsonObj) {
     }
     */
 
-    for (i = 0; i < cities.length; i++){
+    for (i = 0; i < townNames.length; i++){
         if (townNames[i].name == "Fish Haven")
         populateCityData(townNames[i]);
     }
