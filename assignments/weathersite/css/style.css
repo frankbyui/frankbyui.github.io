@@ -1,0 +1,57 @@
+/* || general styles */
+
+html {
+  font-family: 'helvetica neue', helvetica, arial, sans-serif;
+}
+
+body {
+  width: 800px;
+  margin: 0 auto;
+  background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo);
+}
+
+h1, h2 {
+  font-family: 'Faster One', cursive;
+  color: rgb(36, 39, 41);
+  text-align: center;
+}
+
+/* header styles */
+
+h1 {
+  font-size: 4.5rem;
+}
+
+header p {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* section styles */
+
+section article {
+  width: 33%;
+  float: left;
+}
+
+section p {
+  margin: 5px 0;
+}
+
+section p:nth-child(4) {
+    font-weight: bold;
+    font-style: italic;
+}
+
+section ul {
+  margin-top: 0;
+  font-style: italic;
+}
+
+h2 {
+  font-size: 2.5rem;
+  letter-spacing: -5px;
+  margin-bottom: 10px;
+  text-align: center;
+}

@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta name="description" content="Preston Weather">
+	<!-- style sheets -->
+	<link href="css/normalize.css" rel="stylesheet">
+    <link href="css/small.css" rel="stylesheet">
+    <link href="css/medium.css" rel="stylesheet">
+    <link href="css/large.css" rel="stylesheet">
+    <title>Idaho Rain or Shine | Preston, Idaho</title>
+</head>
+
+<body>
+	<header>
+        <img src="images/logo.png" alt="IRoS Logo">
+        <div class="top">
+		<div class="brand">Idaho Rain or Shine</div>
+        <div class="motto">"Weather Your Way, Right Away"</div>
+        </div>
+	</header>	
+
+<nav>
+    <ul class="hide">
+		<li><a href="#" id="menuHam" onclick="toggleNavMenu()">&#9776;</a></li>
+		<li><a href="index.html">Home</a></li>
+		<li><a class="active" href="preston.html">Preston</a></li> 
+		<li><a href="sodasprings.html">Soda Springs</a></li>
+		<li><a href="fishhaven.html">Fish Haven</a></li>
+		<li><a href="stormcenter.html">Storm Center</a></li>
+		<li><a href="gallery.html">Gallery</a></li>
+	</ul>
+</nav>
+
+  
+<main>
+	<div id="place">Preston, Idaho</div>
+	<section>
+		<picture id="hero">
+        <source srcset="images/herosmall.jpeg" media="(max-width: 60em)">  
+		<source srcset="images/herolarge.jpeg" media="(min-width: 60em)">
+		<img src="images/herolarge.jpeg" alt="Sunny Day">
+		</picture>
+		<div id="weathsumm">
+			<h3>Weather Summary</h3>
+			<p>Currently: <span id="current-conditions"></span>
+			   Temperature: <span id="current-temp"></span>&deg;F<br>
+			   Humidity: <span id="humidity"></span>&#37;<br>
+			   Wind Speed: <span id="wind-speed"></span>mph<br>
+			   Wind Chill: <span id="wind-chill"></span>&deg;F<br>
+			</p>
+		</div>   
+	</section>
+	
+	<section id="forecast">
+		<span id="forecasthead">5 Day Forecast</span>
+		<table> 
+			<thead>
+				<tr>
+					<th><span id="day1">Monday</span></th>
+					<th><span id="day2">Tuesday</span></th>
+					<th><span id="day3">Wednesday</span></th>
+					<th><span id="day4">Thursday</span></th>
+					<th><span id="day5">Friday</span></th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td><img id="wIcon1" alt="Weather Icon" src="#"><br>High <span id="hTemp1"></span>&deg;F</td>
+					<td><img id="wIcon2" alt="Weather Icon" src="#"><br>High <span id="hTemp2"></span>&deg;F</td>
+					<td><img id="wIcon3" alt="Weather Icon" src="#"><br>High <span id="hTemp3"></span>&deg;F</td>
+					<td><img id="wIcon4" alt="Weather Icon" src="#"><br>High <span id="hTemp4"></span>&deg;F</td>
+					<td><img id="wIcon5" alt="Weather Icon" src="#"><br>High <span id="hTemp5"></span>&deg;F</td>
+				</tr>
+			</tbody>
+		</table>
+	</section>	
+	
+	<section id="townEvent">
+		<img src="images/placeholder.jpg" alt="Fall Leaves">
+		<article id="events"></article>
+	</section>
+
+</main>  
+
+<footer>
+	<aside>
+        <div class="contact">
+            <p>Idaho Rain or Shine</p>
+            <p>30 N 1st E</p>
+            <p></p>
+            <p>Preston, ID 83263</p>
+            <p>☎ 999.999.9999</p>
+            <p>✉ idahorainorshine@iros.com</p>
+        </div>
+        <img src="images/prestonstatic.png" alt="Preston">
+    </aside>
+    <p class="copyright">&copy;2019 Idaho Rain or Shine  |  <a href="termsofuse"> Terms of Use </a>  |  <span id="currentdate"></span> | Weather by <a href="https://openweathermap.org/">OpenWeatherMap</a></p>	
+</footer>
+
+<script src="scripts/hamburger.js"></script>
+<script src="scripts/currentdate.js"></script>
+<script src="scripts/map.js"></script>
+<script src="scripts/toggleNavMenu.js"></script>
+<script src="scripts/prestonWeather.js"></script>
+<script src="scripts/prestonArticle.js"></script>
+<!--  <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>  -->
+
+</body>
+</html>
