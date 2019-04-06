@@ -219,7 +219,7 @@ main .gallery figure figcaption {
     box-shadow: 3px 3px 10px #555555;
     }
 #homeTowns article:first-child {
-    text-align: center;
+    text-align: center !important;
     }
 footer {
     font-family: 'Merriweather', serif;
