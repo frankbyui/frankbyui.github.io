@@ -103,7 +103,8 @@ main .gallery figure:hover {
     }
 #napoleon {
     width: 30%;
-    align-content: left;
+    float: right;
+    margin: 10px;
     }
 footer {
     font-family: 'Merriweather', serif;
