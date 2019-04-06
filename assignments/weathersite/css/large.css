@@ -101,6 +101,10 @@ main .gallery figure:hover {
     margin-top: 30px;
     padding: 20px 30px;
     }
+#napoleon {
+    width: 30%;
+    align-content: left;
+    }
 footer {
     font-family: 'Merriweather', serif;
     padding-top: 30px;
