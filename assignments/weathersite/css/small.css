@@ -218,7 +218,7 @@ main .gallery figure figcaption {
     text-align: center;
     box-shadow: 3px 3px 10px #555555;
     }
-#homeTowns article:first-child {
+#homeTowns article:second-child {
     text-align: center !important;
     }
 footer {
