@@ -226,6 +226,16 @@ main .gallery figure figcaption {
     float: right;
     margin: 10px;
     }
+#sodaarticle {
+    width: 20%;
+    float: right;
+    margin: 10px;
+    }
+#fishhavenarticle {
+    width: 20%;
+    float: right;
+    margin: 10px;
+    }
 footer {
     font-family: 'Merriweather', serif;
     color: #313335;
