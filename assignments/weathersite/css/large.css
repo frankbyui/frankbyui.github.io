@@ -106,6 +106,9 @@ main .gallery figure:hover {
     float: right;
     margin: 10px;
     }
+#townevents {
+    float: center;
+    }
 footer {
     font-family: 'Merriweather', serif;
     padding-top: 30px;
