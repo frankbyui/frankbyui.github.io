@@ -51,11 +51,10 @@ header .motto {
 nav {
     display: flex;
     justify-content: center;
-    width: 100%;
+    width: 98.5%;
     text-align: center;
     font-family: 'Merriweather', serif;
     color: #313335;  
-    font-size: .8rem;
     position: absolute;
     z-index: 1;
     }
