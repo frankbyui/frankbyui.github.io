@@ -141,9 +141,12 @@ form #ratingvalue {
     box-shadow: 3px 3px 6px gray;
     color: white;
     }
-#submitbutton{
+#submitbutton {
     padding: 10px 0px;
     } 
+#stormtitle {
+    padding: 50px;
+    }
 #place{
     padding:100px;
     }   
