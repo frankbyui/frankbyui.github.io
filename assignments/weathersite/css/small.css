@@ -143,9 +143,12 @@ form #ratingvalue {
     }
 #submitbutton{
     padding: 10px 0px;
-    }    
+    } 
+#place{
+    padding:50px;
+    }   
 #thankyou {
-    padding: 100px;
+    padding: 50px;
     text-align: center;
     }
 main img { 
