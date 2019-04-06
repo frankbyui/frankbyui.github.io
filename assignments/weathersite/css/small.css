@@ -145,10 +145,10 @@ form #ratingvalue {
     padding: 10px 0px;
     } 
 #place{
-    padding:50px;
+    padding:100px;
     }   
 #thankyou {
-    padding: 50px;
+    padding: 0px 50px 100px;
     text-align: center;
     }
 main img { 
