@@ -79,9 +79,6 @@ main .gallery figure:hover {
     width: 400px;
     height: 400px;
     }
-#weathsumm { 
-    font-size: 1rem;
-    }
 #forecast {
     display: block;
     font-family: 'Merriweather', serif;
