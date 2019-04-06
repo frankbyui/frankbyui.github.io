@@ -213,12 +213,12 @@ main .gallery figure figcaption {
     margin-top: 30px;
     padding: 20px 30px;
     }
-#homeTowns {
+#homeTowns section {
     border: 1px solid #313335;
     text-align: center;
     box-shadow: 3px 3px 10px #555555;
     }
-#homeTowns h2 {
+#homeTowns h2 section {
     text-align: center;
     }
 footer {
