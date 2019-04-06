@@ -197,15 +197,9 @@ main .gallery figure figcaption {
     padding: 10px;
     grid-column-gap: 10%;
     }
-#townEvent img {
-    margin: 20px auto;
-    grid-column-start: 3;
-    grid-row-start: 1;
-    }
 #townEvent Article {
-    grid-column-start: 2;
-    grid-row-start: 1;
-    padding: 10px;
+    float: center;
+    font-size: 2rem;
     }
 #homeImage {
     margin: 20px 0px;
@@ -226,6 +220,11 @@ main .gallery figure figcaption {
     }
 #homeTowns h2 {
     text-align: center !important;
+    }
+#napoleon {
+    width: 30%;
+    float: right;
+    margin: 10px;
     }
 footer {
     font-family: 'Merriweather', serif;
