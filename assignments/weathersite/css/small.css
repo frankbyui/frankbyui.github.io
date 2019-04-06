@@ -101,9 +101,9 @@ nav li a:hover:not(.active) {
 #place {
     font-family: 'Merriweather', serif;
     display: block;
-    padding-top: 40px;
+    padding-top: 50px;
     text-align: center;
-    margin: 30px;
+    margin: 20px;
     font-size: 2rem;
     color: #555555;
     }
