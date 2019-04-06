@@ -198,7 +198,7 @@ main .gallery figure figcaption {
     grid-column-gap: 10%;
     }
 #townEvent Article {
-    float: center;
+    align-content: center;
     font-size: 2rem;
     }
 #homeImage {
