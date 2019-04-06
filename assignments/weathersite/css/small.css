@@ -176,12 +176,13 @@ main .gallery figure figcaption {
 #weathsumm {
     display: block; 
     position: absolute;
-    top: 230px;
+    top: 250px;
     left: 20px;
     width: 150px;
-    height: 140px;
+    height: 160px;
+    margin-left: 5%;
     color: #313335;
-    padding: 5px;
+    padding: 10px;
     font-size: .8rem;
     background-color: rgba(255,255,255,0.5);
     border: solid 1px black; 
