@@ -4,7 +4,7 @@
 
 nav {
     display: flex;
-    justify-content: center;
+    justify-content: left;
     font-family: 'Merriweather', serif;
     background-color: #83b8e7;
     color: #313335;
