@@ -111,6 +111,15 @@ footer #copyright {
     font-size: .8rem;
     color: #f4f7f7
 }
+footer #copyright a:link {
+    color:  #f4f7f7;
+}
+footer #copyright a:hover {
+    color:  #72afe5;
+}
+footer #copyright a:visited {
+    color:  #7f7f7f;
+}
 footer #copyright p:nth-of-type(2n) {
     font-family: 'Source Sans Pro', sans-serif;
     padding: 6px;
