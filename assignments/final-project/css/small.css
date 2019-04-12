@@ -85,13 +85,13 @@ footer #copyright {
     display: flex; 
     justify-content: center;
     align-items: center;
-    background: #1052bc;
+    background: #075294;
     width: 100%;
     height: 40px;
     padding-top: 10px;
     font-family: 'Source Sans Pro', sans-serif;
     font-size: .7rem;
 }
-footer #copyright P:nth-child(2n) {
+footer #copyright p:nth-child(2n) {
     padding: 2px;
 }
