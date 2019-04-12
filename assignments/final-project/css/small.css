@@ -92,16 +92,23 @@ main img {
     margin-top: 5px;
 }
 #contact {
-    margin-right: 10px;
+    margin: 20px;
     background-color: #f4f7f7;
     font-family: 'Source Sans Pro', sans-serif;
+}
+aside {
+    
 }
 footer p {
     margin: 0px;
 }
 footer #footbar{
-    display: inline-flex;
-    flex-flow: column wrap;
+    display: flex;
+    flex-flow: row;
+    margin-top: 20px;
+}
+span #hq-map{
+    margin: 20px;
 }
 footer img {
     width: 50px;
