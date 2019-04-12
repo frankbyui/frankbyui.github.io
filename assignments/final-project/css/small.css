@@ -4,8 +4,9 @@
 /* font-family: 'Source Sans Pro', sans-serif; */
 @import url('https://fonts.googleapis.com/css?family=Great+Vibes');
 /* font-family: 'Great Vibes', cursive; */
-/* colors-- med-blue: #1052bc off-white: #f4f7f7  
+/* colors-- med-blue: #075294 off-white: #f4f7f7  
    berry-red: #d30c2d med-gray: #7f7f7f */
+   
 
 h1 {
     font-family: 'Great Vibes', cursive; 
@@ -27,7 +28,7 @@ h3{
     justify-content: center;
     align-items: center;
     position: relative;
-    background-color:#1052bc;
+    background-color:#075294;
     border-bottom: 2px solid; 
 }
 nav {
