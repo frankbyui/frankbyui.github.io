@@ -89,14 +89,11 @@ nav li a:hover:not(.active) {
     display: flex;
     justify-content: left;
     background-color: #f4f7f7;
+    font-family: 'Source Sans Pro', sans-serif;
 }
-#hq-map {
-    display: flex;
-    justify-content: right;
-    width: 60px;
-    height: auto;
-    border: 1px solid #555555;
-    background-color:  #f4f7f7;
+#footbar {
+    display: flexbox;
+    
 }
 footer #copyright {
     display: flex; 
