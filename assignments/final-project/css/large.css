@@ -2,4 +2,54 @@
 
 @media only screen and (min-width: 60rem) {
 
+ nav {
+    display: flex;
+    justify-content: center;
+    font-family: 'Merriweather', serif;
+    background-color: #83b8e7;
+    color: #313335;
+    width: 98.5%; 
+}
+nav .hide {
+    display: inline;
+}
+nav .hide li {
+    display: inline;
+}
+nav #menuHam {
+    display: none;
+}
+nav h2 {
+    text-align: center;
+    color: #313335;
+}
+nav ul {
+    display: inline;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #5e6266;
+    font-size: 1rem;
+}
+nav li a {
+    float: left;
+    color: #313335;
+    text-align: center;
+    padding: 8px 16px;
+    text-decoration: none;
+    font-size: 1rem;
+}
+nav a:hover {
+    background-color: #313335;
+    color: #83b8e7;
+}
+nav a.active {
+    background-color: #83b8e7;
+    color: #313335;
+}
+nav li a:hover:not(.active) {
+    background-color: #555555;
+    color: #83b8e7;
+}
+   
 }
