@@ -22,19 +22,18 @@ h3{
 }
 header {
     display: flex;
-    justify-content: center;
-    font-family: 'Great Vibes', cursive; 
-    font-size: 3rem;
+    justify-content: left;
 }
 #topPage{
-    height: 100px;
+    height: 80px;
     width: 100%;
     display: flex;
-    justify-content: left;
+    justify-content: center;
     align-items: center;
     position: relative;
     background-color:#f4f7f7; 
     border-bottom: 1px solid; 
+    font-size: 3rem;
 }
 #topPage img{
     width: 60px;
