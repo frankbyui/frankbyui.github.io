@@ -10,9 +10,10 @@
         color: #313335;
         width: 98.5%; 
     }
-    nav .hide {
+    /*nav .hide {
         display: inline;
     }
+    */
     nav .hide li {
         display: inline;
     }

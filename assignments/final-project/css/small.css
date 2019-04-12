@@ -4,7 +4,7 @@
 /* font-family: 'Source Sans Pro', sans-serif; */
 @import url('https://fonts.googleapis.com/css?family=Great+Vibes');
 /* font-family: 'Great Vibes', cursive; */
-/* colors-- med-blue: #075294 off-white: #f4f7f7  
+/* colors-- med-blue: #075294 off-white: #f4f7f7  light-blue #72afe5
    berry-red: #d30c2d light-red #cc4f64 med-gray: #7f7f7f */
    
 
@@ -59,28 +59,28 @@ nav ul {
     display: inline-block;
     margin: 0;
     padding: 0;
-    background-color: #075294;
-    font-size: 1rem;
+    background-color: #f4f7f7 ;
+    font-size: 1.3rem;
 }
 nav li a {
-    color:#d30c2d;
+    color:#cc4f64;
     padding: 0px 16px;
     text-decoration: none;
-    font-size: .8rem;
+    font-size: 1.3rem;
 }
 nav li a:hover {
     background-color: #075294;
     color:#cc4f64;
 }
 nav li a.active {
-    background-color:#d30c2d;
+    background-color:#cc4f64;
     color: #075294;
     border-style: solid;
     /* border-color: ; */
 }
 nav li a:hover:not(.active) {
     background-color: #f4f7f7;
-    color: #d30c2d;
+    color: #cc4f64;
 }
 main img {
     display: flex;
