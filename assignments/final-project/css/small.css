@@ -20,12 +20,6 @@ h3{
     font-family: 'Source Sans Pro', sans-serif; 
     font-size: 1rem;
 }
-header img {
-    display: flex;
-    justify-content: left;
-    width: 50%;
-    height: auto;
-}
 #topPage{
     height: 80px;
     width: 100%;
@@ -91,6 +85,12 @@ nav li a.active {
 nav li a:hover:not(.active) {
     background-color: #555555;
     color: #83b8e7;
+}
+main img {
+    display: flex;
+    justify-content: left;
+    width: 50%;
+    height: auto;
 }
 #contact {
     display: flex;

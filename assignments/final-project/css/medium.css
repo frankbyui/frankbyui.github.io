@@ -1,6 +1,6 @@
 /* Stylesheet medium.css */
 
-@media only screen and (min-width: 40em) {
+@media only screen and (min-width: 50em) {
 
     nav {
         display: flex;
