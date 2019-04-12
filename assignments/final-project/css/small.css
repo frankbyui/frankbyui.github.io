@@ -25,14 +25,14 @@ h3{
     height: 50px;
     width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
     position: relative;
     background-color:#075294;
     border-bottom: 1px solid; 
 }
 #topPage img{
-    width: 20px;
+    width: 60px;
     height: auto;
 }
 nav {
@@ -85,6 +85,8 @@ nav li a:hover:not(.active) {
     background-color: #555555;
     color: #83b8e7;
 }
+
+
 footer #copyright {
     display: flex; 
     justify-content: center;
