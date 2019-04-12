@@ -89,7 +89,7 @@ nav li a:hover:not(.active) {
 main img {
     display: flex;
     justify-content: left;
-    width: 50%;
+    width: 100px;
     height: auto;
 }
 #contact {
