@@ -101,15 +101,12 @@ aside {
     flex-flow: row;
     margin-top: 20px;
 }
+footer {
+    margin: 100px;
+}
 footer p {
     margin: 0px;
 }
-/* footer #footbar{
-    display: flex;
-    flex-flow: row;
-    margin-top: 20px;
-}
-*/
 footer img {
     width: 250px;
     height: auto;
