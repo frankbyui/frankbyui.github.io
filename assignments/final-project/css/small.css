@@ -22,13 +22,13 @@ h3{
 }
 
 #topPage{
-    height: 50px;
+    height: 100px;
     width: 100%;
     display: flex;
     justify-content: left;
     align-items: center;
     position: relative;
-    background-color:#075294;
+    background-color:#f4f7f7 
     border-bottom: 1px solid; 
 }
 #topPage img{
