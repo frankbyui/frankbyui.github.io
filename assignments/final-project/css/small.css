@@ -1,0 +1,36 @@
+/* Stylesheet small.css */
+
+@import url('https://fonts.googleapis.com/css?family=Merriweather');
+
+h1 {
+
+}
+h2 {
+
+}
+h3{
+
+}
+nav {
+    display: flex;
+    justify-content: center;
+    width: 98.5%;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    color: #313335;  
+    position: absolute;
+    z-index: 1;
+}
+nav .hide {
+    list-style: none; 
+    text-align: center;
+}
+nav .hide li:first-child {
+    display: block !important;
+}
+nav .hide li {
+    display: none;
+}
+nav .show li {
+    display: block !important;
+}
