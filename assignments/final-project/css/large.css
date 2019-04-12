@@ -2,7 +2,7 @@
 
 @media only screen and (min-width: 60rem) {
 
- nav {
+nav {
     display: flex;
     justify-content: left;
     font-family: 'Source Sans Pro', sans-serif; 
