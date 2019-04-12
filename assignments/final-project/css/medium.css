@@ -6,9 +6,10 @@
         display: flex;
         justify-content: left;
         font-family: 'Source Sans Pro', sans-serif; 
-        background-color: #83b8e7;
-        color: #313335;
+        background-color: #f4f7f7;
+        color: #075294;
         width: 98.5%; 
+        border-bottom: 1px solid;
     }
     /*nav .hide {
         display: inline;
@@ -34,23 +35,24 @@
     }
     nav li a {
         float: left;
-        color: #313335;
+        color: #cc4f64;
+        background-color: #f4f7f7;
         text-align: center;
         padding: 8px 16px;
         text-decoration: none;
         font-size: 1rem;
     }
     nav a:hover {
-        background-color: #313335;
-        color: #83b8e7;
+        background-color: #f4f7f7;
+        color:#cc4f64;
     }
     nav a.active {
-        background-color: #83b8e7;
-        color: #313335;
+        background-color: #f4f7f7;
+        color: #075294;
     }
     nav li a:hover:not(.active) {
-        background-color: #555555;
-        color: #83b8e7;
+        background-color: #f4f7f7;
+        color: #075294;
     }
 main img{
     position: relative;
