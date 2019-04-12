@@ -93,7 +93,8 @@ nav li a:hover:not(.active) {
 }
 #footbar {
     display: flexbox;
-    
+    border: 1px solid #555555;
+    background-color:  #f4f7f7;
 }
 footer #copyright {
     display: flex; 
