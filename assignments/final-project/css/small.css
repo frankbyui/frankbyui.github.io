@@ -97,5 +97,6 @@ footer #copyright {
     font-size: .7rem;
 }
 footer #copyright p:nth-of-type(2n) {
-    padding: 2px;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 6px;
 }
