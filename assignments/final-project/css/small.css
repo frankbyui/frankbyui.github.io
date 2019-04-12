@@ -91,6 +91,7 @@ main img {
     justify-content: left;
     width: 100px;
     height: auto;
+    margin-top: 5px;
 }
 #contact {
     display: flex;
