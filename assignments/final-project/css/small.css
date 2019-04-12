@@ -60,7 +60,7 @@ nav ul {
     margin: 0;
     padding: 0;
     background-color: #f4f7f7 ;
-    font-size: 1.3rem;
+    font-size: 2rem;
 }
 nav li a {
     color:#cc4f64;
@@ -73,14 +73,14 @@ nav li a:hover {
     color:#cc4f64;
 }
 nav li a.active {
-    background-color:#cc4f64;
+    background-color:#f4f7f7;
     color: #075294;
     border-style: solid;
     /* border-color: ; */
 }
 nav li a:hover:not(.active) {
     background-color: #f4f7f7;
-    color: #cc4f64;
+    color: #075294;
 }
 main img {
     display: flex;
