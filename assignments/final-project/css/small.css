@@ -85,16 +85,16 @@ nav li a:hover:not(.active) {
     background-color: #555555;
     color: #83b8e7;
 }
+#footbar {
+    display: flexbox;
+    border: 1px solid #555555;
+    background-color:  #f4f7f7;
+}
 #contact {
     display: flex;
     justify-content: left;
     background-color: #f4f7f7;
     font-family: 'Source Sans Pro', sans-serif;
-}
-#footbar {
-    display: flexbox;
-    border: 1px solid #555555;
-    background-color:  #f4f7f7;
 }
 footer #copyright {
     display: flex; 
@@ -105,7 +105,7 @@ footer #copyright {
     height: 40px;
     padding-top: 10px;
     font-family: 'Source Sans Pro', sans-serif;
-    font-size: .7rem;
+    font-size: 1rem;
 }
 footer #copyright p:nth-of-type(2n) {
     font-family: 'Source Sans Pro', sans-serif;
