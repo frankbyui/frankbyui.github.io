@@ -1,15 +1,27 @@
 /* Stylesheet small.css */
 
-@import url('https://fonts.googleapis.com/css?family=Merriweather');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+/* font-family: 'Source Sans Pro', sans-serif; */
+@import url('https://fonts.googleapis.com/css?family=Great+Vibes');
+/* font-family: 'Great Vibes', cursive; */
+/* colors-- med-blue: #1052bc off-white: #f4f7f7  
+   berry-red: #d30c2d med-gray: #7f7f7f */
 
 h1 {
-
+    font-family: 'Great Vibes', cursive; 
+    font-size: 2rem;
 }
 h2 {
-
+    font-family: 'Source Sans Pro', sans-serif; 
+    font-size: 1.7rem;
 }
 h3{
+    font-family: 'Source Sans Pro', sans-serif; 
+    font-size: 1rem;
+}
 
+header {
+    background-color: #f4f7f7; 
 }
 nav {
     display: flex;
@@ -33,4 +45,15 @@ nav .hide li {
 }
 nav .show li {
     display: block !important;
+}
+footer #copyright {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    background: #1052bc;
+    width: 100%;
+    height: 40px;
+    padding-top: 10px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: .7rem;
 }
