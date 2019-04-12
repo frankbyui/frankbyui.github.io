@@ -20,9 +20,11 @@ h3{
     font-family: 'Source Sans Pro', sans-serif; 
     font-size: 1rem;
 }
-header {
+header img {
     display: flex;
     justify-content: left;
+    width: 50%;
+    height: auto;
 }
 #topPage{
     height: 80px;
@@ -33,6 +35,7 @@ header {
     position: relative;
     background-color:#f4f7f7; 
     border-bottom: 1px solid; 
+    font-family: 'Great Vibes', cursive; 
     font-size: 3rem;
 }
 #topPage img{
