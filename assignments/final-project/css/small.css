@@ -107,7 +107,7 @@ footer {
 footer p {
     margin: 0px;
 }
-footer img {
+footer #hq-map img {
     width: 250px;
     height: auto;
     margin: 20px;
@@ -115,6 +115,16 @@ footer img {
 }
 footer img a:hover {
     box-shadow: 2px 2px 2px #72afe5;
+}
+footer #social {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+footer #social img {
+    width: 20px;
+    height: auto;
 }
 footer #copyright {
     display: flex; 
