@@ -97,16 +97,19 @@ main img {
     font-family: 'Source Sans Pro', sans-serif;
 }
 aside {
-    
-}
-footer p {
-    margin: 0px;
-}
-footer #footbar{
     display: flex;
     flex-flow: row;
     margin-top: 20px;
 }
+footer p {
+    margin: 0px;
+}
+/* footer #footbar{
+    display: flex;
+    flex-flow: row;
+    margin-top: 20px;
+}
+*/
 span #hq-map{
     margin: 20px;
 }
