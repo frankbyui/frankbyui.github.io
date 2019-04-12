@@ -51,6 +51,8 @@
         background-color: #555555;
         color: #83b8e7;
     }
-
+main img{
+    position: relative;
+}
     
 }
