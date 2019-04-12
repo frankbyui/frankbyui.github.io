@@ -114,6 +114,10 @@ footer img {
     width: 250px;
     height: auto;
     margin: 20px;
+    box-shadow: 2px 2px 2px #7f7f7f;
+}
+footer img a:hover {
+    box-shadow: 2px 2px 2px #72afe5;
 }
 footer #copyright {
     display: flex; 
