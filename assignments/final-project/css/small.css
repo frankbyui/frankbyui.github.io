@@ -84,7 +84,7 @@ nav li a:hover:not(.active) {
     background-color: #f4f7f7;
     color: #075294;
 }
-main img {
+#logo img {
     display: flex;
     justify-content: left;
     width: 100px;
