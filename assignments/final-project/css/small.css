@@ -6,8 +6,7 @@
 /* font-family: 'Great Vibes', cursive; */
 /* colors-- med-blue: #075294 off-white: #f4f7f7  light-blue #72afe5
    berry-red: #d30c2d light-red #cc4f64 med-gray: #7f7f7f */
-   
-@media only screen and (min-width: 25rem) {
+
 
 h1 {
     font-size: 2rem;
@@ -116,6 +115,4 @@ footer #copyright {
 footer #copyright p:nth-of-type(2n) {
     font-family: 'Source Sans Pro', sans-serif;
     padding: 6px;
-}
-
 }
