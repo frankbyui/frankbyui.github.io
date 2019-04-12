@@ -63,6 +63,7 @@ nav ul {
     display: inline-block;
     margin: 0;
     padding: 0;
+    background-color: #075294;
     background-color: #5e6266;
     font-size: 1rem;
 }
@@ -73,7 +74,7 @@ nav li a {
     font-size: .8rem;
 }
 nav li a:hover {
-    background-color: #313335;
+    background-color: #075294;
     color:#cc4f64;
 }
 nav li a.active {
