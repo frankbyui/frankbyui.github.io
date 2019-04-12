@@ -9,10 +9,8 @@
    
 
 h1 {
-    display: flex;
-    justify-content: center;
-    font-family: 'Great Vibes', cursive; 
-    font-size: 3rem;
+    font-size: 2rem;
+
 }
 h2 {
     font-family: 'Source Sans Pro', sans-serif; 
@@ -21,6 +19,12 @@ h2 {
 h3{
     font-family: 'Source Sans Pro', sans-serif; 
     font-size: 1rem;
+}
+header {
+    display: flex;
+    justify-content: center;
+    font-family: 'Great Vibes', cursive; 
+    font-size: 3rem;
 }
 #topPage{
     height: 100px;
