@@ -123,8 +123,8 @@ footer #social {
     justify-content: center;
 }
 footer #social img {
-    width: 20px;
-    height: auto;
+    height: 20%;
+    margin: 50px 20px 20px;
 }
 footer #copyright {
     display: flex; 
