@@ -29,7 +29,11 @@ h3{
     align-items: center;
     position: relative;
     background-color:#075294;
-    border-bottom: 2px solid; 
+    border-bottom: 1px solid; 
+}
+#topPage img{
+    width: 50%;
+    height: auto;
 }
 nav {
     display: flex;
