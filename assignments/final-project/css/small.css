@@ -77,13 +77,13 @@ nav li a:hover {
     color:#cc4f64;
 }
 nav li a.active {
-    background-color: #83b8e7;
+    background-color:#d30c2d;
     color: #313335;
     border-style: solid;
-    border-color: #555555
+    /* border-color: ; */
 }
 nav li a:hover:not(.active) {
-    background-color: #555555;
+    background-color: #f4f7f7;
     color: #83b8e7;
 }
 main img {
