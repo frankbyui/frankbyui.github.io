@@ -47,6 +47,33 @@ nav .hide li {
 nav .show li {
     display: block !important;
 }
+nav ul {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    background-color: #5e6266;
+    font-size: 1rem;
+}
+nav li a {
+    color: #313335;
+    padding: 0px 16px;
+    text-decoration: none;
+    font-size: .8rem;
+}
+nav li a:hover {
+    background-color: #313335;
+    color: #83b8e7;
+}
+nav li a.active {
+    background-color: #83b8e7;
+    color: #313335;
+    border-style: solid;
+    border-color: #555555
+}
+nav li a:hover:not(.active) {
+    background-color: #555555;
+    color: #83b8e7;
+}
 footer #copyright {
     display: flex; 
     justify-content: center;
