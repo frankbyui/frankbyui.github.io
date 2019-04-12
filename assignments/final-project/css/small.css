@@ -85,10 +85,18 @@ nav li a:hover:not(.active) {
     background-color: #555555;
     color: #83b8e7;
 }
+#contact {
+    display: flex;
+    justify-content: left;
+    background-color: #f4f7f7;
+}
 #hq-map {
+    display: flex;
+    justify-content: right;
     width: 60px;
     height: auto;
     border: 1px solid #555555;
+    background-color:  #f4f7f7;
 }
 footer #copyright {
     display: flex; 
