@@ -20,9 +20,15 @@ h3{
     font-size: 1rem;
 }
 
-header {
-    display: inline-block;
-    background-color: #f4f7f7; 
+#topPage{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color:#1052bc;
+    border-bottom: 2px solid; 
 }
 nav {
     display: flex;
