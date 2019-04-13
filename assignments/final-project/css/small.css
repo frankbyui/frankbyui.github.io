@@ -90,8 +90,38 @@ nav li a:hover:not(.active) {
     width: 100px;
     height: auto;
     margin-top: 5px;
-
 }
+main {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+form {
+    width: 400px;
+    margin: auto;
+    }
+fieldset {
+    width: 40vw;
+    }
+form legend {
+    padding: 10px 5px;
+    font-size: 1.8rem;
+    }
+form select, input:nth-child(n+2) {
+    margin: 10px 0px;
+    }
+form input #submit{
+    background-color:#72afe5;
+    color: #d30c2d ;
+    }
+#buttonsubmit {
+    padding: 20px 0px;
+    }   
+#submit:hover {
+    box-shadow: 3px 3px 6px gray;
+    color: white;
+    }
+#submitbutton {
+    padding: 10px 0px;
+    } 
 #contact {
     margin: 20px;
     background-color: #f4f7f7;
