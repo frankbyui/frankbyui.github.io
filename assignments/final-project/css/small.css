@@ -109,15 +109,14 @@ form select, input:nth-child(n+2) {
     margin: 10px 0px;
     }
 form #submit{
-    background-color:#075294;
-    color: #cc4f64 ;
+    background-color: #cc4f64;
+    color: #075294;
     }
 #buttonsubmit {
     padding: 20px 0px;
     }   
 #submit:hover {
     box-shadow: 3px 3px 6px gray;
-    color: #d30c2d;
     }
 #submitbutton {
     padding: 10px 0px;
