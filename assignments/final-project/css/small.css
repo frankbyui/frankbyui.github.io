@@ -91,7 +91,7 @@ nav li a:hover:not(.active) {
     height: auto;
     margin-top: 5px;
 }
-main #gallery {
+main #templeGallery {
     display: grid;
     padding: 0 2%;
     grid-template-columns: repeat(1, 100%);
