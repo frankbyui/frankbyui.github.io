@@ -40,6 +40,67 @@
     </div>
 
     <main>
+            <h2 id="stormtitle">Contact Us!</h2>
+    
+            <form action="thanks.html" method="get" enctype="multipart/form-data" name="Contact Form" id="userform">
+        
+                <fieldset>
+                    <legend><span>Contact Information</span></legend>
+                    <span>Full Name (required)</span><br>
+                        <input type="text" name="fullname" pattern="[a-zA-Z -._]{5,99}" required><br>
+                    <span>Email:</span><br>
+                        <input type="email" name="email" placeholder="example@youremail.com"><br>
+                    <span>Phone Number</span><br>
+                        <input type="tel" name="telephone" pattern=[0-9]{10,20} required><br>
+                    <span>Zip Code</span><br>
+                        <input type="number" name="zipcode" required><br>
+                </fieldset>
+                    
+                <fieldset>
+                    <legend><span>Event Information</span></legend>
+                    <span>Date of Event</span><br>
+                        <input type="date" name="eventDate"><br>
+                    <span>Event Type</span><br> 
+                        <input type="text" list="range" name="eventType">
+                        <datalist id="range">
+                        <option value="Own Sealing">
+                        <option value="Own Initiatory/Endowment">
+                        <option value="Proxy Baptism/Confirmation">
+                        <option value="Proxy Endowment">
+                        <option value="Proxy Initiatory">
+                        <option value="Proxy Sealing">
+                        <option value="General Temple Service">
+                        <option value="Other">
+                        </datalist><br>
+                    <span>Where are you Traveling from?</span><br> 
+                        <select name="place">
+                        <option value="select" disabled>Select Region...</option>
+                        <option value="USA">United States</option>
+                        <option value="NA">North America, not USA</option>
+                        <option value="CA">Central America</option>
+                        <option value="SA">South America</option>
+                        <option value="EU">Europe</option>
+                        <option value="AS">Asia</option>
+                        <option value="AF">Africa</option>
+                        <option value="AU">Australia</option>
+                        <option value="OTH">Other</option>
+                        </select><br>
+                </fieldset>
+                    
+                <fieldset>
+                    <legend><span>Additional Information</span></legend>
+                    <span>Do you need additional accomodations?</span><br>
+                        <textarea name="addlacomm" rows=15 cols=30>
+                        </textarea><br>
+                    <span>Additional Comments or Requests</span><br>
+                    <textarea name="addlreq" rows=15 cols=30>
+                    </textarea><br>
+                </fieldset> 
+                
+                <div id="buttonsubmit">    
+                <input id="submit" type="submit" value="Submit">
+                </div>    
+            </form>        
 
     </main>
     
