@@ -54,10 +54,8 @@
         background-color: #f4f7f7;
         color: #075294;
     }
-main img{
-    position: absolute;
-    border-bottom: 1px solid #075294;
-    margin-top: 5px;
-}
+#logo img {
+    border-bottom: 1px solid #075294; 
+    }
     
 }
